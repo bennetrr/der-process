@@ -1,0 +1,72 @@
+@use 'variables';
+
+// 1 Value: Top+Bottom+Right+Left
+// 2 Values: Top+Bottom Right+Left
+// 3 Values: Top Right+Left Bottom
+// 4 Values: Top Right Bottom Left
+
+.header {
+  height: variables.$header-height;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: variables.$background-color-dark;
+}
+
+.menuItemNonInteractive {
+  height: variables.$header-height;
+  width: auto;
+  padding: 5px 15px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: default;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.menuItem {
+  @extend .menuItemNonInteractive;
+
+  &:hover {
+    color: variables.$highlight-color;
+    border-top: variables.$seperator-line;
+  }
+}
+
+.menuItemActive {
+  @extend .menuItemNonInteractive;
+  border-top: variables.$seperator-line;
+  border-top-width: 3px;
+}
+
+.menuItemText {
+  margin-left: 10px;
+}
+
+.menuProductEntryTextLine1 {
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.menuProductEntryTextLine2 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.menuProductEntryTextLine3 {
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.leftRightSep {
+  margin-left: auto;
+}
