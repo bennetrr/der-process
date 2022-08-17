@@ -7,9 +7,7 @@ import { faHome, faInfo } from "@fortawesome/free-solid-svg-icons";
 function MenuProductEntry() {
     return (
         <div className={styles.menuItemNonInteractive}>
-            <span className={styles.menuProductEntryTextLine1}>Franz Kafka</span><br/>
-            <span className={styles.menuProductEntryTextLine2}><b>Der Process</b></span> <br/>
-            <span className={styles.menuProductEntryTextLine3}>Lesetagebuch</span><br/>
+            <span className={styles.menuProductEntryTextLine2}><b>Der Process</b></span>
         </div>
     )
 }
@@ -20,6 +18,14 @@ export default function Header() {
             <MenuProductEntry/>
             <MenuEntry link={"/"} icon={faHome}/>
             <MenuEntry text={"Franz Kafka"} link={"/autor"}/>
+            <MenuEntry text={"Historischer Kontext"} link={"/historischer-kontext"}/>
+            <MenuEntry text={"Kapitelübersicht"} link={"/kapitelübersicht"}/>
+            <MenuEntry text={"Inhaltswiedergabe"} link={"/inhalt"}/>
+            <MenuEntry text={"Figurentableau"} link={"/figuren"}/>
+            <MenuEntry text={"Sprachliche Mittel"} link={"/sprachliche-mittel"}/>
+            <MenuEntry text={"Themen"} link={"/themen"}/>
+            <MenuEntry text={"Lesetagebuch"} link={"/lesetagebuch"}/>
+            <MenuEntry text={"Interpretationsansätze"} link={"/interpretationsansätze"}/>
 
             <div className={styles.leftRightSep}/>
             <MenuEntry link={"/about"} icon={faInfo}/>
