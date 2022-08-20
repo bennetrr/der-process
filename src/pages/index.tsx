@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.main_page_content}>
+            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
                 <h2>Franz Kafka</h2>
                 <h1>Der Process</h1>
                 <h3>Lesetagebuch von Bennet Ranft</h3>

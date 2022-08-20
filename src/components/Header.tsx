@@ -17,7 +17,7 @@ export default function Header() {
         <div className={styles.header}>
             <MenuProductEntry/>
             <MenuEntry link={"/"} icon={faHome}/>
-            <MenuEntry text={"Franz Kafka"} link={"/autor"}/>
+            <MenuEntry text={"Biografie"} link={"/biografie"}/>
             <MenuEntry text={"Historischer Kontext"} link={"/historischer-kontext"}/>
             <MenuEntry text={"Kapitelübersicht"} link={"/kapitelübersicht"}/>
             <MenuEntry text={"Inhaltswiedergabe"} link={"/inhalt"}/>
