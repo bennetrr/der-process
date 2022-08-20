@@ -9,8 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: auto !important;
-  min-height: calc(100vh - variables.$header-height);
+  min-height: calc(100vh - #{variables.$header-height});
   margin-top: variables.$header-height;
 }
 
