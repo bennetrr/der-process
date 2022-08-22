@@ -1,0 +1,75 @@
+@use "variables";
+
+// 1 Value: Top+Bottom+Right+Left
+// 2 Values: Top+Bottom Right+Left
+// 3 Values: Top Right+Left Bottom
+// 4 Values: Top Right Bottom Left
+
+.timeline_container {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.timeline_line {
+  margin: -10px 0px -10px;
+
+  border: variables.$highlight-color solid 4px;
+  border-radius: 10px;
+}
+
+.timeline_item {
+  display: flex;
+  margin: 0 0 20px 20px;
+  padding: 15px 0;
+  position: relative;
+
+  background-color: variables.$background-color;
+  border-radius: 10px;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: -10px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent variables.$background-color transparent transparent;
+  }
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: calc(50% - 11.5px);
+    left: -35px;
+    width: 15px;
+    height: 15px;
+    z-index: 1;
+
+    background-color: variables.$background-color-dark;
+    border: 4px solid variables.$highlight-color;
+    border-radius: 50%;
+  }
+}
+
+.timeline_text {
+  margin: 0 15px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline solid variables.$highlight-color 2px;
+}
+
+.timeline_image {
+  margin: 0 15px;
+  height: 100%;
+}
+
+.timeline_image_desc {
+  font-size: 12px;
+}

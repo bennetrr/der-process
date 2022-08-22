@@ -1,8 +1,6 @@
 @use 'variables';
 
 .container {
-  height: 100vh;
-  background-color: variables.$background-color;
   color: variables.$font-color;
 }
 
@@ -11,14 +9,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: calc(100vh - #{variables.$header-height});
+  margin-top: variables.$header-height;
 }
 
-.main_page_content {
-  @extend .page_content;
-  min-height: calc(100vh - variables.$header-height - variables.$music-bar-height);;
+@mixin bg_img($z: -100) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  cursor: default;
+  user-select: none;
 }
 
-.settings_page_content {
-  @extend .page_content;
-  min-height: calc(100vh - variables.$header-height);
+.backgroundImage {
+  @include bg_img(-100);
+}
+
+.backgroundImageFilter {
+  @include bg_img(-99);
+  backdrop-filter: grayscale(100%) blur(2px) brightness(50%);
 }
