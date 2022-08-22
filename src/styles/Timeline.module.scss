@@ -18,8 +18,9 @@
 }
 
 .timeline_item {
+  display: flex;
   margin: 0 0 20px 20px;
-  padding: 15px;
+  padding: 15px 0;
   position: relative;
 
   background-color: variables.$background-color;
@@ -54,8 +55,21 @@
   }
 }
 
+.timeline_text {
+  margin: 0 15px;
+}
+
 .date {
   font-weight: bold;
   font-size: 18px;
   text-decoration: underline solid variables.$highlight-color 2px;
+}
+
+.timeline_image {
+  margin: 0 15px;
+  height: 100%;
+}
+
+.timeline_image_desc {
+  font-size: 12px;
 }

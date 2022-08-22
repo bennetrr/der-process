@@ -13,7 +13,12 @@ export interface TimelineItemProps {
 
 export interface TimelineItemImage {
     uri: string
-    width: string
-    height: string
     align: "left" | "right"
+    desc: string
+    height: number
+    width: number
+}
+
+export interface TimelineItemImageProps {
+    image: TimelineItemImage
 }
