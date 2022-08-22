@@ -25,8 +25,8 @@ export default function Home() {
             <div className={styles.page_content}>
                 <h1>Biografie zu Franz Kafka</h1>
 
-                <Timeline width={'75%'}>
-                    <TimelineItem date={"3. Juli 1883"}>
+                <Timeline width={'60%'}>
+                    <TimelineItem date={"3. Juli 1883"} image={{align: "left", uri: "/../public/img/biografie/Kafka5jahre.jpg", desc: "Kafka mit ca. 5 Jahren", height: 160, width: 110}}>
                         Franz Kafka wird in Prag geboren. Er ist das erste Kind von Hermann und Julie Kafka, die beide aus jüdischen Kaufmannsfamilien stammen. <br/>
                         Er hatte drei dicht hintereinander geborene Schwestern: Gabrielle &quot;Elli&quot;, Valerie &quot;Valli&quot; und Otilie &quot;Ottla&quot;.
                         Alle drei wurden nach Kafkas Tod von den Nazis deportiert und getötet. <br/>
@@ -38,11 +38,11 @@ export default function Home() {
                         Kafka besucht die <i>Deutsche Knabenschule am Fleischmarkt</i>, eine Volksschule mit deutscher Unterrichtssprache in der Prager Altstadt.
                     </TimelineItem>
 
-                    <TimelineItem date={"1893 - 1901"}>
+                    <TimelineItem date={"1893 - 1901"} image={{align: "left", uri: "/../public/img/biografie/Kafka-as-pupil.jpg", desc: "Kafka als Schüler (vor 1900)", height: 115, width: 95}}>
                         Besuch des <i>K.k. Staatsgymnasium mit deutscher Unterrichtssprache in Prag-Altstadt.</i>
                     </TimelineItem>
 
-                    <TimelineItem date={"Winter 192/03"}>
+                    <TimelineItem date={"Winter 1902/03"}>
                         Beginn eines Rechtswissenschaftsstudiums an der <i>Deutschen Karl-Ferdinand-Universität</i> nach mehrfachem Ausprobieren von anderen Studiengängen.
                     </TimelineItem>
 
@@ -63,7 +63,7 @@ export default function Home() {
                         In den 14 Jahren Amtszeit wurde er bis zum Abteilungsleiter befördert.
                     </TimelineItem>
 
-                    <TimelineItem date={"August 1912"}>
+                    <TimelineItem date={"August 1912"} image={{align: "left", uri: "/../public/img/biografie/Kafka-Bauer.png", desc: "Kafka und Felice Bauer (1917)", height: 115, width: 71}}>
                         Kafka lernt die Berliner Handelsangestellte Felice Bauer kennen.
                     </TimelineItem>
 
@@ -88,7 +88,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"28. Juli 1914"}>
-                        Beginn des ersten Weltkriegs (Österreich-Ungarn erklärt Ser.bien den Krieg)
+                        Beginn des ersten Weltkriegs (Österreich-Ungarn erklärt Serbien den Krieg)
                     </TimelineItem>
 
                     <TimelineItem date={"August 1914"}>
@@ -124,7 +124,7 @@ export default function Home() {
                         Kafka erkrankt an der Spanischen Grippe, was eine Lungenentzündung und mehrere Kurbesuche mit sich bringt
                     </TimelineItem>
 
-                    <TimelineItem date={"November 1918"}>
+                    <TimelineItem date={"November 1918"} image={{align: "left", uri: "/../public/img/biografie/De_Kafka_Brief_an_den_Vater_001.jpg", desc: "Die erste Seite des Brief an den Vater", height: 250, width: 159}}>
                         Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem der über das schlechte Verhältnis zu seinem Vater berichtet. <br/>
                         Der Brief wurde nie an Hermann Kafka abgeschickt.
                     </TimelineItem>
@@ -161,7 +161,7 @@ export default function Home() {
                         Der Gesundheitszustand Kafkas verschlechtert sich weiter, weswegen er wieder ins Elternhaus nach Prag zurückkehrt.
                     </TimelineItem>
 
-                    <TimelineItem date={"3. Juni 1924"}>
+                    <TimelineItem date={"3. Juni 1924"} image={{uri: "/../public/img/biografie/Grab_von_franz_kafka.jpg", desc: "Kafkas Grab auf dem neuen jüdischen Friedhof, Prag", height: 107, width: 142.67, align: "left"}}>
                         Franz Kafka stirbt im Alter von 40 Jahren, genau einen Monat vor seinem 41. Geburtstag.
                     </TimelineItem>
 
