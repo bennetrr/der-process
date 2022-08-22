@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "../styles/Timeline.module.scss";
-import { TimelineItemImage, TimelineItemImageProps, TimelineItemProps, TimelineProps } from "../types/TimelineProps";
+import { TimelineItemImageProps, TimelineItemProps, TimelineProps } from "../types/TimelineProps";
 import Image from "next/future/image";
-import { workerData } from "worker_threads";
 
-export default function Timeline({ children, width }: TimelineProps) {
+export default function Timeline({children, width}: TimelineProps) {
     return (
         <div className={styles.timeline_container} style={{width: width}}>
-            <div className={styles.timeline_line} />
+            <div className={styles.timeline_line}/>
             <div className={styles.timeline_items}>
                 {children}
             </div>
@@ -18,14 +17,14 @@ export default function Timeline({ children, width }: TimelineProps) {
 export function TimelineItem({date, children, image}: TimelineItemProps) {
     return (
         <div className={styles.timeline_item}>
-            {image?.align === 'left' ? <TimelineImage image={image} /> : <></>}
+            {image?.align === 'left' ? <TimelineImage image={image}/> : <></>}
             <div className={styles.timeline_text}>
                 <span className={styles.date}>{date}</span>
                 <p>
                     {children}
                 </p>
             </div>
-            {image?.align === 'right' ? <TimelineImage image={image} /> : <></>}
+            {image?.align === 'right' ? <TimelineImage image={image}/> : <></>}
         </div>
     );
 }
