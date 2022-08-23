@@ -19,13 +19,10 @@ export default function Header() {
             <MenuEntry link={"/"} icon={faHome}/>
             <MenuEntry text={"Biografie"} link={"/biografie"}/>
             <MenuEntry text={"Historischer Kontext"} link={"/historischer-kontext"}/>
-            <MenuEntry text={"Kapitelübersicht"} link={"/kapitelübersicht"}/>
-            <MenuEntry text={"Inhaltswiedergabe"} link={"/inhalt"}/>
+            <MenuEntry text={"Kapitelübersicht"} link={"/kapiteluebersicht"}/>
             <MenuEntry text={"Figurentableau"} link={"/figuren"}/>
-            <MenuEntry text={"Sprachliche Mittel"} link={"/sprachliche-mittel"}/>
             <MenuEntry text={"Themen"} link={"/themen"}/>
-            <MenuEntry text={"Lesetagebuch"} link={"/lesetagebuch"}/>
-            <MenuEntry text={"Interpretationsansätze"} link={"/interpretationsansätze"}/>
+            <MenuEntry text={"Interpretationsansätze"} link={"/interpretationsansaetze"}/>
 
             <div className={styles.leftRightSep}/>
             <MenuEntry link={"/about"} icon={faInfo}/>
