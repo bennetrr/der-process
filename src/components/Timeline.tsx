@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../styles/Timeline.module.scss";
 import { TimelineItemImageProps, TimelineItemProps, TimelineProps } from "../types/TimelineProps";
-import Image from "next/future/image";
+
+import { calculateImageSizes, Image } from "./images";
 
 export default function Timeline({children, width}: TimelineProps) {
     return (
@@ -17,22 +18,27 @@ export default function Timeline({children, width}: TimelineProps) {
 export function TimelineItem({date, children, image}: TimelineItemProps) {
     return (
         <div className={styles.timeline_item}>
-            {image?.align === 'left' ? <TimelineImage image={image}/> : <></>}
+            {image !== undefined ? <TimelineImage image={image}/> : <></>}
             <div className={styles.timeline_text}>
                 <span className={styles.date}>{date}</span>
                 <p>
                     {children}
                 </p>
             </div>
-            {image?.align === 'right' ? <TimelineImage image={image}/> : <></>}
         </div>
     );
 }
 
-export function TimelineImage({image: {uri, desc, align, height, width}}: TimelineItemImageProps) {
+export function TimelineImage({image: {uri, desc, width, height, originalWidth, originalHeight}}: TimelineItemImageProps) {
+    const {
+        width: calculatedWidth
+    } = calculateImageSizes(width, height, originalWidth, originalHeight);
+
     return (
-        <div className={styles.timeline_image} style={{width: width}}>
-            <Image src={uri} alt={desc} width={width} height={height}/>
+        <div className={styles.timeline_image} style={{width: calculatedWidth}}>
+            {/* eslint-disable-next-line jsx-a11y/alt-text */}
+            <Image uri={uri} desc={desc} width={width} height={height} originalWidth={originalWidth}
+                   originalHeight={originalHeight}/>
             <br/>
             <span className={styles.timeline_image_desc}>{desc}</span>
         </div>

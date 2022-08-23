@@ -1,4 +1,5 @@
 import { ReactNodeLike } from "prop-types";
+import { ImageProps } from "./ImageProps";
 
 export interface TimelineProps {
     children: ReactNodeLike
@@ -8,17 +9,9 @@ export interface TimelineProps {
 export interface TimelineItemProps {
     date: string
     children: ReactNodeLike
-    image?: TimelineItemImage
-}
-
-export interface TimelineItemImage {
-    uri: string
-    align: "left" | "right"
-    desc: string
-    height: number
-    width: number
+    image?: ImageProps
 }
 
 export interface TimelineItemImageProps {
-    image: TimelineItemImage
+    image: ImageProps
 }
