@@ -4,8 +4,7 @@ import styles from "../styles/Page.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Timeline, { TimelineItem } from "../components/Timeline";
-import Image from "next/image";
-import backgroundImage from "../public/img/biografie/Geburtshaus_Kafkas.jpg"
+import { BackgroundImage } from "../components/images";
 
 export default function Home() {
     return (
@@ -15,11 +14,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <div className={styles.backgroundImageFilter}/>
-            <div className={styles.backgroundImage}>
-                <Image src={backgroundImage.src} alt={"Geburtshaus Kafka"} layout={"fill"}/>
-            </div>
-
+            <BackgroundImage uri={"/img/biografie/Geburtshaus_Kafkas.jpg"} desc={"Kafkas Geburtshaus"}/>
             <Header/>
 
             <div className={styles.page_content}>
@@ -27,11 +22,12 @@ export default function Home() {
 
                 <Timeline width={'60%'}>
                     <TimelineItem date={"3. Juli 1883"} image={{
-                        align: "left",
-                        uri: "/../public/img/biografie/Kafka5jahre.jpg",
+                        uri: "/img/biografie/Kafka5jahre.jpg",
                         desc: "Kafka mit ca. 5 Jahren",
                         height: 160,
-                        width: 110
+                        width: "auto",
+                        originalWidth: 724,
+                        originalHeight: 1050
                     }}>
                         Franz Kafka wird in Prag geboren. Er ist das erste Kind von Hermann und Julie Kafka, die beide
                         aus jüdischen Kaufmannsfamilien stammen. <br/>
@@ -50,11 +46,12 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"1893 - 1901"} image={{
-                        align: "left",
-                        uri: "/../public/img/biografie/Kafka-as-pupil.jpg",
+                        uri: "/img/biografie/Kafka-as-pupil.jpg",
                         desc: "Kafka als Schüler (vor 1900)",
                         height: 115,
-                        width: 95
+                        width: "auto",
+                        originalWidth: 962,
+                        originalHeight: 1170
                     }}>
                         Besuch des <i>Kaiserlich-königlichem Staatsgymnasium mit deutscher Unterrichtssprache in
                         Prag-Altstadt.</i>
@@ -86,11 +83,12 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"August 1912"} image={{
-                        align: "left",
-                        uri: "/../public/img/biografie/Kafka-Bauer.png",
+                        uri: "/img/biografie/Kafka-Bauer.png",
                         desc: "Kafka und Felice Bauer (1917)",
                         height: 115,
-                        width: 71
+                        width: "auto",
+                        originalWidth: 107,
+                        originalHeight: 174
                     }}>
                         Kafka lernt die Berliner Handelsangestellte Felice Bauer kennen.
                     </TimelineItem>
@@ -156,11 +154,12 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"November 1918"} image={{
-                        align: "left",
-                        uri: "/../public/img/biografie/De_Kafka_Brief_an_den_Vater_001.jpg",
+                        uri: "/img/biografie/De_Kafka_Brief_an_den_Vater_001.jpg",
                         desc: "Die erste Seite des Brief an den Vater",
                         height: 250,
-                        width: 159
+                        width: "auto",
+                        originalWidth: 1751,
+                        originalHeight: 2752
                     }}>
                         Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem der
                         über das schlechte Verhältnis zu seinem Vater berichtet. <br/>
@@ -205,11 +204,12 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"3. Juni 1924"} image={{
-                        uri: "/../public/img/biografie/Grab_von_franz_kafka.jpg",
+                        uri: "/img/biografie/Grab_von_franz_kafka.jpg",
                         desc: "Kafkas Grab auf dem neuen jüdischen Friedhof, Prag",
                         height: 107,
-                        width: 142.67,
-                        align: "left"
+                        width: "auto",
+                        originalWidth: 1280,
+                        originalHeight: 960
                     }}>
                         Franz Kafka stirbt im Alter von 40 Jahren, genau einen Monat vor seinem 41. Geburtstag.
                     </TimelineItem>
