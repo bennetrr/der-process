@@ -13,6 +13,11 @@
   margin-top: variables.$header-height;
 }
 
+.text_only_content {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
 @mixin bg_img($z: -100) {
   position: fixed;
   top: 0;
