@@ -46,24 +46,46 @@ export default function Home() {
 
                     <h2>Personen</h2>
                     <h3>Josef K.</h3>
-                    <ul>
+                    <ul className={styles.list}>
                         <li>30 Jahre alt</li>
                         <li>Beruf: Prokurist in einer Bank</li>
                         <li>Gebildet</li>
                         <li>Freundlich</li>
-                        <li>Zeigt etwas Widerstand / Rebellion</li>
+                        <li>Erst:</li>
+                        <ul className={styles.list}>
+                            <li>Bleibt unbeeindruckt</li>
+                            <li>Fühlt sich überlegen</li>
+                            <li>Selbstsicher</li>
+                            <li>Versucht, die Beteiligten zu manipulieren</li>
+                            <li>Provokant</li>
+                            <li>Glaubt nicht, dass die Situation reell ist</li>
+                        </ul>
+                        <li>Später:</li>
+                        <ul className={styles.list}>
+                            <li>Genervt</li>
+                            <li>Suizidale Gedanke</li>
+                            <li>Verunsichert</li>
+                            <li>Kindisch / Stur (Anwalt anrufen</li>
+                            <li>Empfindet die Situation als ungerecht</li>
+                        </ul>
                     </ul>
 
-                    <h3>Wächter Franz und Willem</h3>
-                    <ul>
-                        <li>Befolgen Befehle einer Behörde</li>
-                        <li>Dürfen nichts zu den Umständen sagen</li>
-                        <li>Freundlich</li>
-                        <li>Bestimmt</li>
+                    <h3>Weitere Personen</h3>
+                    <ul className={styles.list}>
+                        <li>Wächter Franz und Willem</li>
+                        <li>Der Aufseher</li>
+                        <li>Frau Grubach</li>
+                        <li>Alte Leute am Fenster</li>
+                        <li>3 Kollegen der Bank</li>
                     </ul>
+
+                    <h3>Orte</h3>
+                    <p>
+                        Das Kapitel spielt in der Pension von Frau Grubach, in der Josef K. wohnt.
+                    </p>
 
                     <h2>Gedanken / Fragen / Eindrücke / Widersprüche</h2>
-                    <ul>
+                    <ul className={styles.list}>
                         <li>Warum wurde K. verhaftet und warum ist das so geheim?</li>
                         <li>Sind die Leute vom Geheimdienst?</li>
                         <li>Träumt K. das alles nur oder ist er psychisch gestört?</li>

@@ -29,14 +29,31 @@ mit denen er dann gegen Ende des Kapitels zur Bank fährt.
 - Beruf: Prokurist / Bank
 - Gebildet
 - Freundlich
-- Zeigt etwas Widerstand / Rebellion
+- Erst:
+    - Bleibt unbeeindruckt
+    - Fühlt sich überlegen
+    - Selbstsicher
+    - Versucht, die Beteiligten zu manipulieren
+    - Provokant
+    - Glaubt nicht, dass die Situation reell ist
+- Später:
+    - Genervt
+    - Suizidale Gedanken
+    - Verunsichert
+    - Kindisch / Stur (Anwalt anrufen)
+    - Empfindet die Situation als ungerecht
 
-### Wächter Franz und Willem
+### Weitere Personen
 
-- Befolgen Befehle einer Behörde
-- Dürfen nichts zu den Umständen sagen
-- Freundlich
-- Bestimmt
+- Wächter Franz und Willem
+- Der Aufseher
+- Frau Grubach
+- Alte Leute am Fenster
+- 3 Kollegen der Bank
+
+## Orte
+
+Das Kapitel spielt in der Pension von Frau Grubach, in der Josef K. wohnt.
 
 ## Gedanken / Fragen
 

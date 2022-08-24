@@ -39,3 +39,7 @@
   @include bg_img(-99);
   backdrop-filter: grayscale(100%) blur(2px) brightness(50%);
 }
+
+.list {
+  list-style-type: disc;
+}
