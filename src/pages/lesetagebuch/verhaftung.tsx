@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Lesetagebuch: Übersicht | Der Process - Lesetagebuch</title>
+                <title>Lesetagebuch: Kap. 1 | Der Process - Lesetagebuch</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 

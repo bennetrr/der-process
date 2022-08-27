@@ -34,6 +34,7 @@ export default function Home() {
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 3 - <i>Erste Untersuchungen</i></span><br/>
                         <span>Position im Buch: Seiten 35 - 50</span><br/>
+                        <Link href={"/lesetagebuch/untersuchung"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
