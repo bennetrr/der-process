@@ -20,7 +20,7 @@ jobs:
       - name: Dependencies
         working-directory: src
         run: |
-          yarn install
+          yarn install --dev
           yarn add @microsoft/eslint-formatter-sarif@2.1.7
 
       - name: Run ESLint
