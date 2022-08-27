@@ -19,7 +19,7 @@ jobs:
 
       - name: Dependencies
         working-directory: src
-        run: yarn installl
+        run: yarn install
 
       - name: Run ESLint
         run: yarn lint src
