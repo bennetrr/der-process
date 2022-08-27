@@ -26,9 +26,9 @@ export default function Home() {
                     </div>
 
                     <div className={styles.item}>
-                        <span
-                            className={styles.title}>Kapitel 2 - <i>Gespräch mit Frau Grubach / Dann Fräulein Bürstner</i></span><br/>
+                        <span className={styles.title}>Kapitel 2 - <i>Gespräch mit Frau Grubach / Dann Fräulein Bürstner</i></span><br/>
                         <span>Position im Buch: Seiten 22 - 34</span><br/>
+                        <Link href={"/lesetagebuch/gespraeche"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
