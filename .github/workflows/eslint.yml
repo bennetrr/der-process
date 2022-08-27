@@ -1,0 +1,36 @@
+name: ESLint
+
+on:
+  workflow_dispatch:
+  
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  eslint:
+    name: Run eslint scanning
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Dependencies
+        working-directory: src
+        run: yarn installl
+
+      - name: Run ESLint
+        run: yarn lint src
+          --config src/.eslintrc.json
+          --ext .js,.jsx,.ts,.tsx
+          --format @microsoft/eslint-formatter-sarif 
+          --output-file eslint-results.sarif
+        continue-on-error: true
+
+      - name: Upload analysis results to GitHub
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: eslint-results.sarif
+          wait-for-processing: true
