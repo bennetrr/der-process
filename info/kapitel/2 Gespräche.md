@@ -30,16 +30,19 @@ und beschuldigt K. dafür.
 Daraufhin möchte K. die Geschichte nachspielen.
 Nachdem er seinen Namen geschrien hat, so wie der Aufseher es auch gemacht hatte,
 klopft es an der Tür.
+Daraufhin bedrängt K. Frau Bürstner.
 
 ## Personen
 
 ### Josef K.
 
 - Unentschlossen / Wechselt ständig seine Ansichten
+- Schiebt die Schuld gerne auf andere
 
 ### Frau Grubach
 
 - Sorgt sich um K.
+- Vertraut K.
 
 ### Weitere Personen
 

@@ -11,10 +11,5 @@
 6. [ ] Figurentableau (besonders die Frauen)
 7. [ ] Sprachliche Mittel
 8. [ ] Themen
-    - Schuldfrage
-    - Gesetz / Ordnung
-    - Hierarchien
-    - Korruption
-    - Motive (Augenmotiv)
 9. [ ] Fragen / Eindrücke / Emotionen / Widersprüche
 10. [ ] Interpretationsansätze (5 Stück)
