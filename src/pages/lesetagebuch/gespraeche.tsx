@@ -46,7 +46,7 @@ export default function Home() {
                         und beschuldigt K. dafür.
                         Daraufhin möchte K. die Geschichte nachspielen.
                         Nachdem er seinen Namen geschrien hat, so wie der Aufseher es auch gemacht hatte, klopft es an
-                        der Tür.
+                        der Tür. Daraufhin bedrängt K. Frau Bürstner.
                     </p>
 
                     <h2>Personen</h2>
@@ -54,11 +54,13 @@ export default function Home() {
                     <h3>Josef K.</h3>
                     <ul className={styles.list}>
                         <li>Unentschlossen / Wechselt ständig seine Ansichten</li>
+                        <li>Schiebt die Schuld gerne auf andere</li>
                     </ul>
 
                     <h3>Frau Grubach</h3>
                     <ul className={styles.list}>
                         <li>Sorgt sich um K.</li>
+                        <li>Vertraut K.</li>
                     </ul>
 
                     <h3>Weitere Personen</h3>
