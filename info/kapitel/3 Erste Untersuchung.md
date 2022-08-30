@@ -22,6 +22,7 @@ Daraufhin konfrontiert K. den Richter und die anwesenden Personen damit,
 dass eine Verwechslung besteht, er das Verfahren für ungültig hält
 und die Aktionen der Wächter und des Aufsehers dafür da waren, um sein Ansehen zu schädigen.
 Währenddessen sagt der Richter kein Wort.
+Als K. fertig war, wird das Verhör beendet.
 
 ## Personen
 
