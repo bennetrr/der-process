@@ -27,7 +27,7 @@ export default function Home() {
                         Auf dem Weg zu der Untersuchung sieht er die 3 Kollegen, die auch bei seiner Verhaftung dabei
                         waren.
                         Die Straße, auf der sich das Untersuchungsgebäude befinden soll, enthält
-                        <i>&nbsp;&quot;hohe, graue, \[einförmige,] von armen Leuten bewohnte Miethäuser&quot;</i>.
+                        <i>&nbsp;&quot;hohe, graue, [einförmige,] von armen Leuten bewohnte Miethäuser&quot;</i>.
                     </p>
                     <p>
                         Nach langem Fragen bei den Bewohnern des Zielgebäudes, das auch ein Wohnhaus war,
