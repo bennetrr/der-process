@@ -3,6 +3,7 @@
 gelesen am 03.09.2022
 
 ## Inhalt
+
 K. ist bei der Arbeit und sein Onkel Albert kommt in sein Büro, um mit ihm über den Prozess zu sprechen.
 Albert liest ihm einen Brief von seiner Tochter Erna vor, in dem sie davon berichtet,
 dass ihr ein Diener von K. gesagt habe, dass ein schwerer Prozess gegen K. laufe.
@@ -36,6 +37,7 @@ während er, Huld und der Kanzleidirektor versucht haben, einen Ausweg aus dem P
 ## Personen
 
 ### Albert (K.'s Onkel)
+
 - In Eile
 - Macht sich Sorgen um K. und den Prozess
 - Aufgebracht / Nervös / Verängstigt
@@ -43,18 +45,23 @@ während er, Huld und der Kanzleidirektor versucht haben, einen Ausweg aus dem P
 - Besorgt um das Ansehen der K.-Familie
 
 ### Josef K.
+
 - Gleichgültig über den Prozess
 
 ### Advokat Huld
+
 - Früherer Schulkollege von Albert
 - Bedeutender Verteidiger und Armenadvokat
 
 ### Leni (Hulds Pflegerin)
+
 - Unterwürfig
 
 ### Weitere Personen
+
 - Erna (K.'s Cousine)
 - Kanzleidirektor
 
 ## Orte
+
 Das Kapitel spielt am Anfang in K.'s Büro, dann auf dem Weg irgendwohin und später im Haus des Advokaten Huld.

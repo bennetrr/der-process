@@ -18,8 +18,7 @@ Dieser bestätigt K., dass er verhaftet ist, kann ihn aber auch nicht über die 
 Am Ende fragt der Aufseher, ob K. zu seiner Arbeit gehen möchte.
 _"\[...] Sie sind verhaftet, gewiss, aber das soll sie nicht hindern ihren Beruf zu erfüllen.
 Sie sollen auch in ihrer gewöhnlichen Lebensweise nicht gehindert sein."_
-Der Aufseher stellt ihm drei Mitarbeiter von der Bank vor, in der auch K. arbeitet,
-mit denen er dann gegen Ende des Kapitels zur Bank fährt.
+Der Aufseher stellt ihm drei Mitarbeiter von der Bank vor, in der auch K. arbeitet, mit denen er dann gegen Ende des Kapitels zur Bank fährt.
 
 ## Personen
 
