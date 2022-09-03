@@ -5,3 +5,4 @@
 - Hierarchien
 - Korruption
 - Motive (Augenmotiv)
+- Gerichtsbarkeit
