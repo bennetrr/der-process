@@ -3,6 +3,7 @@
 - Schuldfrage
 - Gesetz / Ordnung
 - Hierarchien
-- Korruption
+- Korruption / Käuflichkeit
 - Motive (Augenmotiv)
 - Gerichtsbarkeit
+- Beziehungen / Macht
