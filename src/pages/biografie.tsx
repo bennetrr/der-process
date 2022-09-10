@@ -153,7 +153,7 @@ export default function Home() {
                         mehrere Kurbesuche.
                     </TimelineItem>
 
-                    <TimelineItem date={"November 1918"} image={{
+                    <TimelineItem date={"November 1919"} image={{
                         uri: "/img/biografie/De_Kafka_Brief_an_den_Vater_001.jpg",
                         desc: "Die erste Seite des Brief an den Vater",
                         height: 250,
