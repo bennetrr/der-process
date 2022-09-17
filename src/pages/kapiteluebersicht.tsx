@@ -22,58 +22,62 @@ export default function Home() {
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 1 - <i>Verhaftung</i></span><br/>
                         <span>Position im Buch: Seiten 7 - 21</span><br/>
-                        <Link href={"/lesetagebuch/verhaftung"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/1_verhaftung"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 2 - <i>Gespräch mit Frau Grubach / Dann Fräulein Bürstner</i></span><br/>
                         <span>Position im Buch: Seiten 22 - 34</span><br/>
-                        <Link href={"/lesetagebuch/gespraeche"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/2_gespraeche"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 3 - <i>Erste Untersuchungen</i></span><br/>
                         <span>Position im Buch: Seiten 35 - 50</span><br/>
-                        <Link href={"/lesetagebuch/untersuchung"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/3_untersuchung"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 4 - <i>Im leeren Sitzungssaal / Der Student / Die Kanzleien</i></span><br/>
                         <span>Position im Buch: Seiten 51 - 74</span><br/>
-                        <Link href={"/lesetagebuch/sitzungssaal"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/4_sitzungssaal"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 5 - <i>Der Prügler</i></span><br/>
                         <span>Position im Buch: Seiten 75 - 81</span><br/>
-                        <Link href={"/lesetagebuch/pruegler"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/5_pruegler"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 6 - <i>Der Onkel / Leni</i></span><br/>
                         <span>Position im Buch: Seiten 82 - 101</span><br/>
-                        <Link href={"/lesetagebuch/onkel"}>Lesetagebuch</Link>
+                        <Link href={"/lesetagebuch/6_onkel"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 7 - <i>Advokat / Fabrikant / Maler</i></span><br/>
                         <span>Position im Buch: Seiten 102 - 151</span><br/>
+                        <Link href={"/lesetagebuch/7_advokat"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span
                             className={styles.title}>Kapitel 8 - <i>Kaufmann Block / Kündigung des Advokaten</i></span><br/>
                         <span>Position im Buch: Seiten 152 - 181</span><br/>
+                        <Link href={"/lesetagebuch/8_kaufmann"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 9 - <i>Im Dom</i></span><br/>
                         <span>Position im Buch: Seiten 182 - 205</span><br/>
+                        <Link href={"/lesetagebuch/9_dom"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
                         <span className={styles.title}>Kapitel 10 - <i>Ende</i></span><br/>
                         <span>Position im Buch: Seiten 206 - 211</span><br/>
+                        <Link href={"/lesetagebuch/10_ende"}>Lesetagebuch</Link>
                     </div>
 
                     <div className={styles.item}>
