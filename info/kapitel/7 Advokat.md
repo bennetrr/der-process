@@ -70,7 +70,7 @@ Beim Herausgehen bemerkt K., dass hinter der Tür Gerichtskanzleien sind, worauf
 
 ## Orte
 
-Das Kapitel spielt am Anfang in K.'s Büro, dann in der Wohnung vom Maler Titorelli 
+Das Kapitel spielt am Anfang in K.'s Büro, dann in der Wohnung vom Maler Titorelli. 
 
 ## Gedanken / Fragen
 
