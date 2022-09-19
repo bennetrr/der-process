@@ -18,7 +18,7 @@ export default function Header() {
             <MenuProductEntry/>
             <MenuEntry link={"/"} icon={faHome}/>
             <MenuEntry text={"Biografie"} link={"/biografie"}/>
-            <MenuEntry text={"Historischer Kontext"} link={"/historischer-kontext"}/>
+            <MenuEntry text={"Entstehungskontext"} link={"/entstehungskontext"}/>
             <MenuEntry text={"Kapitelübersicht"} link={"/kapiteluebersicht"}/>
             <MenuEntry text={"Figurentableau"} link={"/figuren"}/>
             <MenuEntry text={"Themen"} link={"/themen"}/>

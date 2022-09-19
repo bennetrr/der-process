@@ -14,7 +14,7 @@ export default function Home() {
 
             <Header/>
             <div className={styles.page_content} style={{background: '#1a1a1a'}}>
-                <h1>Historischer Kontext</h1>
+                <h1>Entstehungskontext</h1>
             </div>
         </div>
     );
