@@ -37,7 +37,7 @@
 
 .backgroundImageFilter {
   @include bg_img(-99);
-  backdrop-filter: grayscale(100%) blur(2px) brightness(50%);
+  backdrop-filter: grayscale(100%) blur(2px) brightness(45%);
 }
 
 .list {
