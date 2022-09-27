@@ -6,4 +6,4 @@
 - zäh und monoton
 - hypotaktischer Satzbau
 - ständige Äußerung von Vermutungen
-- Benutzung des Konjuktiv
+- Benutzung des Konjunktivs

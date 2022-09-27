@@ -1,4 +1,12 @@
-# Charakterisierung Josef K.
+# Josef K.
+
+## Persönliche Daten
+
+- 30 Jahre alt
+- Arbeitet als Prokurist bei einer Bank
+- Lebt alleine in einem in einer Pension gemietetem Zimmer
+
+## Charaktereigenschaften
 
 - überrascht
 - verständnislos
