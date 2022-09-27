@@ -4,4 +4,6 @@
 
 ## Tiefenpsychologischer Ansatz
 
+## Religiöser Ansatz
+
 ## Soziologischer Ansatz
