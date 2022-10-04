@@ -6,13 +6,20 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
 
-export default function MenuEntry({text, icon, link}: MenuEntryProps) {
+export default function MenuEntry({text, icon, link, matchBases}: MenuEntryProps) {
     if (text === undefined && icon === undefined)
         throw new Error("MenuEntry: text or icon (or both) must be given!");
 
     // Check if this route is active
     const router = useRouter();
-    const styleName = (router.pathname == link) ? styles.menuItemActive : styles.menuItem;
+    const routeName = router.pathname;
+    let styleName;
+
+    if (routeName == link) styleName = styles.menuItemActive;
+    else if ((matchBases || []).includes(routeName.split('/')[1])) styleName = styles.menuItemChildActive;
+    else styleName = styles.menuItem;
+
+    console.log((matchBases || []));
 
     return (
         <Link href={link}>
