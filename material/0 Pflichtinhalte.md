@@ -1,15 +1,15 @@
 # Lesetagebuch Kafka: Der Process
 
-1. [ ] Deckblatt
+1. Deckblatt
     - Titel
     - Autor
     - Name / Klasse des Erstellers
-2. [X] Franz Kafka (Biografie)
-3. [ ] Historischer Kontext (1. Weltkrieg, "Fragment")
-4. [X] Kapitelübersicht
-5. [ ] Inhaltswiedergabe
-6. [ ] Figurentableau (besonders die Frauen)
-7. [ ] Sprachliche Mittel
-8. [ ] Themen
-9. [ ] Fragen / Eindrücke / Emotionen / Widersprüche
-10. [ ] Interpretationsansätze (5 Stück)
+2. Biografie
+3. Entstehungskontext (1. Weltkrieg, "Fragment")
+4. Kapitelübersicht
+   - Inhaltswiedergabe
+   - Fragen / Eindrücke / Emotionen / Widersprüche
+5. Figurentableau (besonders die Frauen)
+6. Textsprache
+7. Themen
+8. Interpretationsansätze

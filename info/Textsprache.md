@@ -1,4 +1,4 @@
-# Sprache
+# Textsprache
 
 - monoperspektivisch (subjektive Erzählperspektive)
 - manchmal perspektivische Wechsel
