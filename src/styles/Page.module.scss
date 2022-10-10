@@ -13,6 +13,11 @@
   margin-top: variables.$header-height;
 }
 
+.pageContentGray {
+  @extend .page_content;
+  background-color: variables.$background-color;
+}
+
 .text_only_content {
   width: 50%;
   margin-bottom: 50px;

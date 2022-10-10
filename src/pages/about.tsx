@@ -15,7 +15,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.pageContent} style={{background: '#1a1a1a'}}>
+            <div className={styles.pageContent}>
                 <div className={styles.aboutContainer}>
                     <h1>Über diese Website</h1>
                     <p>

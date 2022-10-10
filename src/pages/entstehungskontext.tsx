@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+            <div className={styles.pageContentGray}>
                 <h1>Entstehungskontext</h1>
             </div>
         </div>

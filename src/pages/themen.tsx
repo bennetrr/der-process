@@ -63,13 +63,13 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+            <div className={styles.pageContentGray}>
                 <VisNetwork nodes={nodes} edges={edges} options={options}/>
             </div>
 
             <div className={styles.floatingWarningContainer}>
                 <div className={styles.floatingWarning} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
-                    Bei Darstellungsproblemen nochmal den &quot;Themen&quot;-Tab in der Menüleiste drücken!
+                    Darstellungsprobleme? Einfach nochmal auf den &quot;Themen&quot;-Tab in der Menüleiste drücken!
                     <FontAwesomeIcon icon={faClose} className={styles.floatingWarningCloseIcon}
                                      onClick={() => setProblemWarningVis(false)}/>
                 </div>
