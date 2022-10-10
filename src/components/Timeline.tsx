@@ -29,7 +29,7 @@ export function TimelineItem({date, children, image}: TimelineItemProps) {
     );
 }
 
-export function TimelineImage({image: {uri, desc, width, height, originalWidth, originalHeight}}: TimelineItemImageProps) {
+export function TimelineImage({image: {uri, alt, width, height, originalWidth, originalHeight}}: TimelineItemImageProps) {
     const {
         width: calculatedWidth
     } = calculateImageSizes(width, height, originalWidth, originalHeight);
@@ -37,10 +37,10 @@ export function TimelineImage({image: {uri, desc, width, height, originalWidth, 
     return (
         <div className={styles.timeline_image} style={{width: calculatedWidth}}>
             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-            <Image uri={uri} desc={desc} width={width} height={height} originalWidth={originalWidth}
+            <Image uri={uri} alt={alt} width={width} height={height} originalWidth={originalWidth}
                    originalHeight={originalHeight}/>
             <br/>
-            <span className={styles.timeline_image_desc}>{desc}</span>
+            <span className={styles.timeline_image_desc}>{alt}</span>
         </div>
     )
 }

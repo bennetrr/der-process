@@ -41,11 +41,8 @@ export function calculateImageSizes(width: number | "auto", height: number | "au
     throw new Error(`Image: Unsupported argument constellation`);
 }
 
-export function Image({uri, desc, height, width, originalWidth, originalHeight}: ImageProps) {
-    const {
-        width: calculatedWidth,
-        height: calculatedHeight
-    } = calculateImageSizes(width, height, originalWidth, originalHeight);
+export function Image({uri, alt, height, width, originalWidth, originalHeight}: ImageProps) {
+    const {width: calculatedWidth, height: calculatedHeight} = calculateImageSizes(width, height, originalWidth, originalHeight);
 
-    return <NextImage src={uri} alt={desc} width={calculatedWidth} height={calculatedHeight}/>;
+    return <NextImage src={uri} alt={alt} width={calculatedWidth} height={calculatedHeight}/>;
 }

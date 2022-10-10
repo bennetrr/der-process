@@ -28,7 +28,7 @@ export default function Home() {
                     <a href="https://github.com/bennetrr/kafka-der-process" className={styles.GitHubLink}
                        target={"_blank"} rel="noreferrer">
                         {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                        <Image uri={"/img/GitHub-Mark-Light-120px-plus.png"} desc={"GitHub Logo"} height={50}
+                        <Image uri={"/img/GitHub-Mark-Light-120px-plus.png"} alt={"GitHub Logo"} height={50}
                                width={"auto"} originalWidth={120} originalHeight={120}/>
                         <span className={styles.GitHubLinkText}>Open the Project on GitHub</span>
                     </a>
