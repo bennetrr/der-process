@@ -4,7 +4,7 @@ import styles from "../styles/Page.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Timeline, { TimelineItem } from "../components/Timeline";
-import { BackgroundImage } from "../components/images";
+import { BackgroundImage } from "../components/Images";
 
 export default function Home() {
     return (

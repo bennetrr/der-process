@@ -4,7 +4,7 @@ import styles from "../styles/About.module.scss"
 
 import Head from "next/head";
 import Header from "../components/Header";
-import { Image } from "../components/images";
+import { Image } from "../components/Images";
 
 export default function Home() {
     return (
