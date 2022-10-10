@@ -19,8 +19,6 @@ export default function MenuEntry({text, icon, link, matchBases}: MenuEntryProps
     else if ((matchBases || []).includes(routeName.split('/')[1])) styleName = styles.menuItemChildActive;
     else styleName = styles.menuItem;
 
-    console.log((matchBases || []));
-
     return (
         <Link href={link}>
             <div className={styleName}>
