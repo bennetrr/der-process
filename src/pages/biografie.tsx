@@ -22,7 +22,7 @@ export default function Home() {
 
                 <Timeline width={'60%'}>
                     <TimelineItem date={"3. Juli 1883"} image={{
-                        uri: "/img/biografie/Kafka5jahre.jpg",
+                        uri: "/img/biografie/Kafka_5_Jahre.jpg",
                         desc: "Kafka mit ca. 5 Jahren",
                         height: 160,
                         width: "auto",
@@ -46,7 +46,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"1893 - 1901"} image={{
-                        uri: "/img/biografie/Kafka-as-pupil.jpg",
+                        uri: "/img/biografie/Kafka_als_Schueler.jpg",
                         desc: "Kafka als Schüler (vor 1900)",
                         height: 115,
                         width: "auto",
@@ -154,7 +154,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"November 1919"} image={{
-                        uri: "/img/biografie/De_Kafka_Brief_an_den_Vater_001.jpg",
+                        uri: "/img/biografie/Kafka_Brief_an_den_Vater.jpg",
                         desc: "Die erste Seite des Brief an den Vater",
                         height: 250,
                         width: "auto",
@@ -204,7 +204,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"3. Juni 1924"} image={{
-                        uri: "/img/biografie/Grab_von_franz_kafka.jpg",
+                        uri: "/img/biografie/Grab_von_Franz_Kafka.jpg",
                         desc: "Kafkas Grab auf dem neuen jüdischen Friedhof, Prag",
                         height: 107,
                         width: "auto",
