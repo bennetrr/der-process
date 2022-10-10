@@ -22,6 +22,7 @@ export default function Header() {
             <MenuEntry text={"Kapitelübersicht"} link={"/kapiteluebersicht"} matchBases={["lesetagebuch"]}/>
             <MenuEntry text={"Figurentableau"} link={"/figuren"}/>
             <MenuEntry text={"Themen"} link={"/themen"}/>
+            <MenuEntry text={"Textsprache"} link={"/textsprache"}/>
             <MenuEntry text={"Interpretationsansätze"} link={"/interpretationsansaetze"}/>
 
             <div className={styles.leftRightSep}/>

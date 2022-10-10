@@ -63,6 +63,7 @@ export default function Home() {
                         </a><br/>
                         Von Christoph Radtke (via Wikimedia Commons)<br/>
                         Lizenziert unter <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a></p>
+
                     <h3>Bilder</h3>
                     <ul>
                         <li>Kafka im Alter von ca. 5 Jahren<br/>
@@ -99,6 +100,15 @@ export default function Home() {
                         <br/>
                     </ul>
 
+                    <h2>Textsprache</h2>
+                    <h3>Hintergrundbild</h3>
+                    <p>
+                        Die erste Seite des Manuskriptes zu <i>Der Process</i><br/>
+                        <a href={"https://commons.wikimedia.org/wiki/File:Kafka_process.png"}>
+                            https://commons.wikimedia.org/wiki/File:Kafka_process.png</a><br/>
+                        Von Literaturarchiv Marbach (via Wikimedia Commons)<br/>
+                        Lizenz: Gemeinfrei
+                    </p>
                 </div>
             </div>
         </div>

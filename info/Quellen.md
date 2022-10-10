@@ -32,9 +32,20 @@ Lizenziert unter [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
   Von Franz Kafka<br>
   Lizenz: Gemeinfrei
 
+# Textsprache
+
+## Hintergrundbild
+
+Die erste Seite des Manuskriptes zu _Der Process_<br>
+<https://commons.wikimedia.org/wiki/File:Kafka_process.png><br>
+Von Literaturarchiv Marbach (via Wikimedia Commons)<br>
+Lizenz: Gemeinfrei
+
 # Kapitelübersicht
+
 ## Hintergrundbilder
-- Kapitel 1: Verhaftung
-  Ausschnitt eines Comics zu "Der Process"
-  <https://deutsch.radio.cz/tschechische-buecher-die-sie-lesen-muessen-8683027/8#&gid=asset&pid=7>
+
+- Kapitel 1: Verhaftung<br>
+  Ausschnitt eines Comics zu "Der Process"<br>
+  <https://deutsch.radio.cz/tschechische-buecher-die-sie-lesen-muessen-8683027/8#&gid=asset&pid=7><br>
   _"Der Prozess, Chantal Montellier und David Mairowitz, BB art 2009"_
