@@ -36,7 +36,7 @@ Lizenz: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
   Autor: Nightwish62 (via Wikimedia Commons)<br>
   Lizenz: [GNU FDL](https://www.gnu.org/licenses/fdl-1.3.html) und [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 
-# Textsprache
+# Entstehungskontext
 
 ## Hintergrundbild
 

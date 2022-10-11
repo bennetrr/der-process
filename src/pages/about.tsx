@@ -87,7 +87,7 @@ export default function Home() {
                         </li><br/>
                     </ul>
 
-                    <h2>Textsprache</h2>
+                    <h2>Entstehungskontext</h2>
                     <h3>Hintergrundbild</h3>
                     <p>
                         Die erste Seite des Manuskriptes zu <i>Der Process</i><br/>

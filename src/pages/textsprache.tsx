@@ -61,11 +61,9 @@ export default function Home() {
                 <title>Textsprache | Der Process - Lesetagebuch</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-
-            <BackgroundImage uri={"/img/Der_Process_Manuskript.png"} desc={"Die erste Seite des Manuskriptes zu Der Process"}/>
             <Header/>
 
-            <div className={styles.page_content}>
+            <div className={styles.pageContentGray}>
                 <VisNetwork nodes={nodes} edges={edges} options={options}/>
             </div>
 
