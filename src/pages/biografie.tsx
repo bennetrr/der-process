@@ -83,7 +83,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"August 1912"} image={{
-                        uri: "/img/biografie/Kafka-Bauer.png",
+                        uri: "/img/biografie/Kafka_Bauer.png",
                         alt: "Kafka und Felice Bauer (1917)",
                         height: 115,
                         width: "auto",
