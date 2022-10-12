@@ -3,14 +3,13 @@ import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
-import createRange from "../utils/CreateRange";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
-import { DataSet, Edge, Node, Options } from "vis-network/standalone";
 import VisNetwork from "../components/VisNetwork";
-import { BackgroundImage } from "../components/Images";
+import { DataSet, Edge, Node, Options } from "vis-network/standalone";
+import createRange from "../utils/CreateRange";
 
 export default function Home() {
     const nodes = new DataSet<Node, "id">([
@@ -29,7 +28,7 @@ export default function Home() {
     }));
 
     const options: Options = {
-        configure: { enabled: false },
+        configure: {enabled: false},
         edges: {
             color: "#ffffff",
             smooth: false
@@ -39,14 +38,14 @@ export default function Home() {
                 background: "#000000",
                 border: "#ffe502"
             },
-            font: { color: "#ffffff" },
+            font: {color: "#ffffff"},
             //@ts-ignore
             margin: 15,
             shape: "box"
         },
         physics: {
             solver: "hierarchicalRepulsion",
-            hierarchicalRepulsion: { avoidOverlap: 1 }
+            hierarchicalRepulsion: {avoidOverlap: 1}
         },
         interaction: {
             dragNodes: false,
@@ -72,9 +71,8 @@ export default function Home() {
 
             <div className={styles.floatingWarningContainer}>
                 <div className={styles.floatingWarning} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
-                    Darstellungsprobleme? Einfach nochmal auf den &quot;Themen&quot;-Tab in der Menüleiste drücken!
-                    <FontAwesomeIcon icon={faClose} className={styles.floatingWarningCloseIcon}
-                                     onClick={() => setProblemWarningVis(false)}/>
+                    Darstellungsprobleme? Einfach nochmal auf den &quot;Textsprache&quot;-Tab in der Menüleiste drücken!
+                    <FontAwesomeIcon icon={faClose} className={styles.floatingWarningCloseIcon} onClick={() => setProblemWarningVis(false)}/>
                 </div>
             </div>
         </div>
