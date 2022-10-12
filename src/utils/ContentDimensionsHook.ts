@@ -7,8 +7,6 @@ export default function useContentDimensions() {
     const updateWidthAndHeight = () => {
         setContentWidth(window.innerWidth);
         setContentHeight(window.innerHeight - 50);
-
-        console.debug(contentWidth, contentHeight);
     };
 
     useEffect(() => {

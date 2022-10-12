@@ -44,7 +44,10 @@ export default function Home() {
             margin: 15,
             shape: "box"
         },
-        physics: false,
+        physics: {
+            solver: "hierarchicalRepulsion",
+            hierarchicalRepulsion: { avoidOverlap: 1 }
+        },
         interaction: {
             dragNodes: false,
             zoomView: false,

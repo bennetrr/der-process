@@ -12,8 +12,12 @@ export default function VisNetwork({nodes, edges, options, events}: VisNetworkPr
         const nw = visJsRef.current && new Network(visJsRef.current, {nodes, edges}, options || {});
         nw && setNetwork(nw);
 
-        nw && events && events.forEach(x => nw.on(x.event, x.callback))
+        // Apply events
+        nw && events && events.forEach(x => nw.on(x.event, x.callback));
     }, [visJsRef, nodes, edges, options, events]);
+
+    network && network.setSize(`${contentWidth}px`, `${contentHeight}px`);
+    network && network.fit();
 
     return (
         <div ref={visJsRef} style={{width: contentWidth, height: contentHeight}}/>
