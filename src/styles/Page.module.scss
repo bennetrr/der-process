@@ -60,45 +60,6 @@
   list-style-type: disc;
 }
 
-.floatingWarningContainer {
-  width: 100%;
-  position: absolute;
-  bottom: 5px;
-  user-select: none;
-}
-
-.floatingWarning {
-  margin: 10px auto;
-  padding: 15px 35px;
-  width: fit-content;
-
-  background-color: variables.$background-color-dark;
-  border-radius: 30px;
-}
-
-.floatingWarningCloseIcon {
-  margin-left: 30px;
-  position: relative;
-  top: 1px;
-
-  &:hover {
-    color: variables.$close-color;
-    cursor: pointer;
-  }
-}
-
 .seamlessParagraph {
   margin-top: 0;
-}
-
-.bigPopupContainer {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  z-index: 200;
-  margin: 0;
-  top: 0;
-
-  backdrop-filter: blur(2px) brightness(50%);
-  transition: visibility 50ms;
 }

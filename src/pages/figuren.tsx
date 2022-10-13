@@ -1,16 +1,19 @@
 import React, { useCallback, useRef, useState } from "react";
-import styles from "../../styles/Page.module.scss";
+import genericStyles from "../styles/Page.module.scss";
+import pageStyles from "../styles/Figurentableau.module.scss"
 
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "../components/Header";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
-import VisNetwork from "../../components/VisNetwork";
+import VisNetwork from "../components/VisNetwork";
 import { DataSet, Edge, Node, Options } from "vis-network/standalone";
-import { VisClickEvent, VisNetworkEvent } from "../../types/VisNetworkProps";
+import { VisClickEvent, VisNetworkEvent } from "../types/VisNetworkProps";
 import { Network } from "vis-network";
+
+import figurenData from "../components/FigurenData";
 
 
 //region Network Data
@@ -224,25 +227,28 @@ export default function Home() {
     const [problemWarningVis, setProblemWarningVis] = useState(true);
 
     return (
-        <div className={styles.container}>
+        <div className={genericStyles.container}>
             <Head>
                 <title>Figurentableau | Der Process - Lesetagebuch</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
             <Header/>
-            <div className={styles.pageContentGray}>
+            <div className={genericStyles.pageContentGray}>
                 <VisNetwork nodes={nodes} edges={edges} options={options} events={events} getNetwork={getNetwork}/>
 
-                <div className={styles.floatingWarningContainer} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
-                    <div className={styles.floatingWarning}>
+                <div className={pageStyles.floatingWarningContainer} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
+                    <div className={pageStyles.floatingWarning}>
                         Ansicht kann bewegt und mit dem Mausrad gezoomt werden. Für Details auf Knoten oder Verbindungen klicken.
-                        <FontAwesomeIcon icon={faClose} className={styles.floatingWarningCloseIcon} onClick={() => setProblemWarningVis(false)}/>
+                        <FontAwesomeIcon icon={faClose} className={pageStyles.floatingWarningCloseIcon} onClick={() => setProblemWarningVis(false)}/>
                     </div>
                 </div>
 
-                <div className={styles.bigPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
-                    {selected}
+                <div className={pageStyles.figurenPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
+                    <div className={pageStyles.figurenPopup} onClick={() => {}}>
+                        <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon} />
+                        {selected && figurenData[selected] === undefined ? <p>No information found</p> : figurenData[selected]}
+                    </div>
                 </div>
             </div>
         </div>
