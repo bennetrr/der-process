@@ -1,11 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 import VisNetwork from "../components/VisNetwork";
 import { DataSet, Edge, Node, Options } from "vis-network/standalone";
@@ -56,8 +53,6 @@ export default function Home() {
         }
     };
 
-    const [problemWarningVis, setProblemWarningVis] = useState(true);
-
     return (
         <div className={styles.container}>
             <Head>
@@ -68,13 +63,6 @@ export default function Home() {
             <Header/>
             <div className={styles.pageContentGray}>
                 <VisNetwork nodes={nodes} edges={edges} options={options}/>
-            </div>
-
-            <div className={styles.floatingWarningContainer}>
-                <div className={styles.floatingWarning} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
-                    Darstellungsprobleme? Einfach nochmal auf den &quot;Themen&quot;-Tab in der Menüleiste drücken!
-                    <FontAwesomeIcon icon={faClose} className={styles.floatingWarningCloseIcon} onClick={() => setProblemWarningVis(false)}/>
-                </div>
             </div>
         </div>
     );
