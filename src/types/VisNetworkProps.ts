@@ -1,10 +1,11 @@
-import { DataSet, Edge, NetworkEvents, Node, Options } from "vis-network";
+import { DataSet, Edge, Network, NetworkEvents, Node, Options } from "vis-network";
 
 export default interface VisNetworkProps {
     nodes: DataSet<Node>
     edges: DataSet<Edge>
     options?: Options
     events?: VisNetworkEvent[]
+    getNetwork?: (n: Network) => Network
 }
 
 export interface VisNetworkEvent {
