@@ -202,7 +202,7 @@ const options: Options = {
 //endregion
 
 export default function Home() {
-    const network = useRef<Network>(null);
+    const network = useRef<Network>();
     const getNetwork = useCallback((n: Network) => network.current = n, [network]);
 
     //region Click Events
@@ -212,7 +212,7 @@ export default function Home() {
 
     const deselectElement = () => {
         setSelected(undefined);
-        network.current.unselectAll();
+        network.current && network.current.unselectAll();
     };
 
     const events: VisNetworkEvent[] = [
