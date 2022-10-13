@@ -90,3 +90,15 @@
 .seamlessParagraph {
   margin-top: 0;
 }
+
+.bigPopupContainer {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 200;
+  margin: 0;
+  top: 0;
+
+  backdrop-filter: blur(2px) brightness(50%);
+  transition: visibility 50ms;
+}

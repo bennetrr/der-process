@@ -20,7 +20,7 @@ export default function Header() {
             <MenuEntry text={"Biografie"} link={"/biografie"}/>
             <MenuEntry text={"Entstehungskontext"} link={"/entstehungskontext"}/>
             <MenuEntry text={"Kapitelübersicht"} link={"/kapiteluebersicht"} matchBases={["lesetagebuch"]}/>
-            <MenuEntry text={"Figurentableau"} link={"/figuren/overview"} matchBases={["figuren"]}/>
+            <MenuEntry text={"Figurentableau"} link={"/figuren"}/>
             <MenuEntry text={"Themen"} link={"/themen"}/>
             <MenuEntry text={"Textsprache"} link={"/textsprache"}/>
             <MenuEntry text={"Interpretationsansätze"} link={"/interpretationsansaetze"}/>
