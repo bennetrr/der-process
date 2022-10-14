@@ -51,6 +51,13 @@ export default function Home() {
                                 als Fragmente angehangen sind.
                             </p>
                         </li>
+                        <li>
+                            <b>Postum veröffentlicht:</b>
+                            <p className={styles.seamlessParagraph}>
+                                Der Roman wurde ein Jahr nach Kafkas Tod von seinem Freund Max Brod veröffentlicht,
+                                obwohl Kafka in seinem Testament verlangte, die Manuskripte zu verbrennen.
+                            </p>
+                        </li>
                     </ul>
                 </div>
             </div>

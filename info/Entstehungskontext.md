@@ -14,3 +14,5 @@
   Deshalb schrieb Kafka die Kapitel von _Der Process_ auch in Hefte, in denen er auch andere Texte schrieb.
   Kafka legte keine bestimmte Reihenfolge der Kapitel fest, weshalb es mehrere Ausgaben mit unterschiedlichen Aufteilungen und Reihenfolgen gibt. 
   Anfang 1915 brach Kafka die Arbeiten endgültig ab und ließ mehrere Kapitel unvollständig, die in manchen Ausgaben als Fragmente angehangen sind.
+- **Postum veröffentlicht:**
+  Der Roman wurde ein Jahr nach Kafkas Tod von seinem Freund Max Brod veröffentlicht, obwohl Kafka in seinem Testament verlangte, die Manuskripte zu verbrennen.
