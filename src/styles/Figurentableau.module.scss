@@ -27,6 +27,25 @@
   }
 }
 
+.noInfoNotificationContainer {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  user-select: none;
+  transition: visibility 2s;
+}
+
+.noInfoNotification {
+  margin: 10px auto;
+  padding: 15px 35px;
+  width: fit-content;
+
+  background-color: variables.$background-color-dark;
+  color: variables.$highlight-color;
+  border-radius: 30px;
+  transition: visibility 2s;
+}
+
 .figurenPopupContainer {
   display: flex;
   flex-direction: column;

@@ -209,9 +209,22 @@ export default function Home() {
     const getNetwork = useCallback((n: Network) => network.current = n, [network]);
 
     //region Click Events
-    const [selected, setSelected] = useState<string>();
+    const [selected, setSelected] = useState<JSX.Element>();
+    const [noInfoNotificationVis, setNoInfoNotificationVis] = useState(false);
 
-    const selectElement = (e: VisClickEvent) => setSelected(e.edges.length !== 0 ? e.edges[0].toString() : e.nodes[0].toString());
+    const selectElement = (e: VisClickEvent) => {
+        const selected = e.edges.length !== 0 ? e.edges[0].toString() : e.nodes[0].toString();
+
+        // Show a notification if the selected object has no data
+        if (!(selected in figurenData)) {
+            setNoInfoNotificationVis(true);
+            setTimeout(() => setNoInfoNotificationVis(false), 5*1000);
+            deselectElement();
+            return;
+        }
+        // @ts-ignore
+        setSelected(figurenData[selected]);
+    };
 
     const deselectElement = () => {
         setSelected(undefined);
@@ -244,10 +257,16 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className={pageStyles.noInfoNotificationContainer} style={{visibility: noInfoNotificationVis ? "visible" : "hidden"}}>
+                    <div className={pageStyles.noInfoNotification}>
+                        Keine Informationen verfügbar
+                    </div>
+                </div>
+
                 <div className={pageStyles.figurenPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
                     <div className={pageStyles.figurenPopup} onClick={() => {}}>
                         <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon} />
-                        {selected && figurenData[selected] === undefined ? <p>No information found</p> : figurenData[selected]}
+                        {selected || <p>Ein Fehler ist aufgetreten</p>}
                     </div>
                 </div>
             </div>
