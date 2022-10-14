@@ -65,6 +65,7 @@
   height: 80%;
   padding: 0 20px;
   overflow: auto;
+  z-index: 201;
 
   background-color: transparentize(variables.$background-color, 0.3);
   border-radius: 10px;

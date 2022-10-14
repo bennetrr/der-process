@@ -277,8 +277,8 @@ export default function Home() {
                 </div>
 
                 <div className={pageStyles.figurenPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
-                    <div className={pageStyles.figurenPopup} onClick={() => {}}>
-                        <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon} />
+                    <div className={pageStyles.figurenPopup} onClick={e => e.stopPropagation()}>
+                        <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon} onClick={deselectElement}/>
                         {selected || <p>Ein Fehler ist aufgetreten</p>}
                     </div>
                 </div>
