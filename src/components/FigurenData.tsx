@@ -1,3 +1,5 @@
+import styles from "../styles/Figurentableau.module.scss"
+
 const figurenData = {
     "0": <>
         <h1>Josef K.</h1>
@@ -20,7 +22,8 @@ const figurenData = {
             <li>selbstsicher</li>
             <li>ambitioniert</li>
         </ul>
-        ------&gt;
+        <span className={styles.bigArrow}>↓</span>
+        <span className={styles.bigArrowCenteredText}>Entwicklung</span>
         <ul>
             <li>fängt an, zu zweifeln</li>
             <li>sucht nach Hilfe</li>
@@ -28,7 +31,7 @@ const figurenData = {
             </li>
             <li>macht sich Sorgen</li>
         </ul>
-        ------&gt;
+        <span className={styles.bigArrow}>↓</span>
         <ul>
             <li>unkonzentriert</li>
             <li>vernachlässigt seine Kunden</li>
@@ -37,7 +40,7 @@ const figurenData = {
             <li>panisch</li>
             <li>beklemmt (kriegt keine Luft, enge Räume, dunkel, ärmlich)</li>
         </ul>
-        ------&gt;
+        <span className={styles.bigArrow}>↓</span>
         <ul>
             <li>gleichgültig</li>
             <li>verzweifelt</li>
