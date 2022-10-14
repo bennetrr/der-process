@@ -6,7 +6,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClose } from "@fortawesome/free-solid-svg-icons";
+import { faClose, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 
 import VisNetwork from "../components/VisNetwork";
 import { DataSet, Edge, Node, Options } from "vis-network/standalone";
@@ -68,7 +68,7 @@ const edges = new DataSet<Edge, "id">([
 
     // Gerichtspersonen
     {id:   "0->200", from:   0, to: 200, label: ""},
-    {id: "200->201", from: 200, to: 201, label: ""},
+    {id: "200->201", from: 200, to: 201, label: "Verhaften"},
     {id: "200->202", from: 200, to: 202, label: ""},
     {id: "200->203", from: 200, to: 203, label: ""},
     {id: "200->204", from: 200, to: 204, label: ""},
@@ -106,8 +106,10 @@ const edges = new DataSet<Edge, "id">([
     {id: "405->501", from: 405, to: 501, label: "Pflegt / Verhältnis"},  // Leni <-> Huld
     {id: "101->501", from: 101, to: 501, label: "Alte Freunde"},  // Onkel <-> Huld
     {id: "505->501", from: 505, to: 501, label: "Mandat"},  // Kaufmann <-> Huld
-    {id: "403->205", from: 403, to: 205, label: "⚭"},  // Gerichtsdiener ⚭ Frau
+    {id: "403->205", from: 403, to: 205, label: "Ehe"},  // Gerichtsdiener ⚭ Frau
     {id: "403->204", from: 403, to: 204, label: "Verhältnis"},  // Frau des Gerichtsdieners <-> Student
+    {id: "503->504", from: 503, to: 504, label: "Freunde"},  // Maler <-> Fabrikant
+    {id: "501->502", from: 501, to: 502, label: "Freunde"},  // Advokat <-> Kanzleidirektor
 ]);
 
 const options: Options = {
@@ -231,6 +233,13 @@ export default function Home() {
         network.current && network.current.unselectAll();
     };
 
+    const showAll = () => {
+        const temp: JSX.Element[] = [];
+        // @ts-ignore
+        for (let key in figurenData) temp.push(figurenData[key]);
+        setSelected(<>{temp}</>)
+    };
+
     const events: VisNetworkEvent[] = [
         {event: "selectNode", callback: selectElement},
         {event: "selectEdge", callback: selectElement}
@@ -261,6 +270,10 @@ export default function Home() {
                     <div className={pageStyles.noInfoNotification}>
                         Keine Informationen verfügbar
                     </div>
+                </div>
+
+                <div className={pageStyles.viewAllButton} title={"Alle anzeigen"} onClick={showAll}>
+                    <FontAwesomeIcon icon={faFolderOpen}/>
                 </div>
 
                 <div className={pageStyles.figurenPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>

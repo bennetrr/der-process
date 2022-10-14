@@ -104,3 +104,26 @@
   position: relative;
   bottom: 20px;
 }
+
+.viewAllButton {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25%;
+  background-color: variables.$background-color-dark;
+
+  &:hover {
+    color: variables.$highlight-color;
+    cursor: pointer;
+  }
+}
