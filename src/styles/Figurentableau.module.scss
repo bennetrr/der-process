@@ -32,7 +32,6 @@
   top: 55px;
   right: 10px;
   user-select: none;
-  transition: visibility 2s;
 }
 
 .noInfoNotification {
@@ -41,9 +40,8 @@
   width: fit-content;
 
   background-color: variables.$background-color-dark;
-  color: variables.$highlight-color;
+  color: variables.$font-color;
   border-radius: 30px;
-  transition: visibility 2s;
 }
 
 .figurenPopupContainer {
@@ -60,7 +58,6 @@
   z-index: 200;
 
   backdrop-filter: blur(1px) brightness(50%);
-  transition: visibility 75ms;
 }
 
 .figurenPopup {
@@ -71,7 +68,6 @@
 
   background-color: transparentize(variables.$background-color, 0.3);
   border-radius: 10px;
-  transition: visibility 50ms;
 
   @media screen and (max-width: 900px) {
     width: 100%;
@@ -123,7 +119,8 @@
   background-color: variables.$background-color-dark;
 
   &:hover {
-    color: variables.$highlight-color;
+    background-color: variables.$highlight-color;
+    color: variables.$background-color;
     cursor: pointer;
   }
 }
