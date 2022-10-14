@@ -4,6 +4,7 @@
 
 - 30 Jahre alt
 - Arbeitet als Prokurist bei einer Bank
+  - Empfindet seine Arbeit als sehr wichtig
 - Lebt alleine in einem in einer Pension gemietetem Zimmer
 
 ## Charaktereigenschaften
@@ -19,25 +20,15 @@
 - selbstsicher
 - ambitioniert
 
-```
-    |
-    |
-    |
-   \_/
-```
+↓
 
 - fängt an, zu zweifeln
 - sucht nach Hilfe
-- merkt, dass er auf sich gestellt ist
-  => kommt nicht weiter
+- eigennützig; versucht immer, sich einen Vorteil zu verschaffen
+- merkt, dass er auf sich gestellt ist ⇒ kommt nicht weiter
 - macht sich Sorgen
 
-```
-    |
-    |
-    |
-   \_/
-```
+↓
 
 - unkonzentriert
 - vernachlässigt seine Kunden
@@ -46,12 +37,7 @@
 - panisch
 - beklemmt (kriegt keine Luft, enge Räume, dunkel, ärmlich)
 
-```
-    |
-    |
-    |
-   \_/
-```
+↓
 
 - gleichgültig
 - verzweifelt
