@@ -33,6 +33,14 @@ export default function Home() {
                 </div>
                 <div className={styles.sourcesContainer}>
                     <h1>Quellen</h1>
+                    <h2>Deckblatt</h2>
+                    <p>
+                        Cover von <i>&quot;Der Process&quot;</i><br/>
+                        <ClearLink>https://www.goodreads.com/book/show/20882307-der-proce</ClearLink><br/>
+                        Autor: Fischer Verlag (via goodreads) <br/>
+                        Lizenz: Unbekannt
+                    </p>
+
                     <h2>Biografie</h2>
                     <h3>Textquellen</h3>
                     <ul>

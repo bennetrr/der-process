@@ -1,3 +1,10 @@
+# Deckblatt
+
+Cover von _"Der Process"_<br>
+<https://www.goodreads.com/book/show/20882307-der-proce><br>
+Autor: Fischer Verlag (via goodreads)<br>
+Lizenz: Unbekannt
+
 # Biografie
 
 ## Textquellen
