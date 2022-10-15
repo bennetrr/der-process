@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.page_content} style={{background: '#570000', textAlign: "center"}}>
+            <div className={styles.pageContent} style={{background: '#570000', textAlign: "center"}}>
                 <h1>404 - Ressource not found</h1>
                 <h2 style={{fontWeight: "normal"}}>
                     Wir wissen nicht, wie du hierher gefunden hast, aber normalerweise solltest du das hier nicht sehen.

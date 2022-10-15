@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImage uri={"/img/kapiteluebersicht/Kap3_Court_Room_in_Belen.jpg"} desc={"Ein Prozess im Gericht des Belem Prison, Mexico"}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 3: Erste Untersuchungen</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

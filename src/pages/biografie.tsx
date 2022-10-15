@@ -17,7 +17,7 @@ export default function Home() {
             <BackgroundImage uri={"/img/biografie/Geburtshaus_Kafkas.jpg"} desc={"Kafkas Geburtshaus"}/>
             <Header/>
 
-            <div className={styles.page_content}>
+            <div className={styles.pageContent}>
                 <h1>Biografie zu Franz Kafka</h1>
 
                 <Timeline width={'60%'}>

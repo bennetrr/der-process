@@ -17,8 +17,8 @@ export default function Home() {
                              desc={"Die erste Seite des Manuskriptes zu Der Process"}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Entstehungskontext</h1>
                     <ul>
                         <li>

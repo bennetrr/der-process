@@ -1,4 +1,4 @@
-@use 'variables';
+@use "variables";
 
 .container {
   display: grid;
@@ -19,16 +19,16 @@
   }
 }
 
-.item {
+@mixin item($overlayColor) {
   display: block;
-  position: relative;
-  z-index: 0;
   width: 350px;
   height: 200px;
+  position: relative;
   padding: 20px;
+  z-index: 0;
 
-  background-color: variables.$background-color-dark;
-  border-radius: 10px;
+  background-color: variables.$backgroundColorDark;
+  border-radius: variables.$roundedCorners;
   overflow: hidden;
 
   a {
@@ -36,15 +36,17 @@
   }
 
   &:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: variables.$highlight-color;
     height: 32px;
     width: 32px;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    z-index: -1;
+
+    content: "";
+    background: $overlayColor;
     border-radius: 32px;
+
     transform: scale(1);
     transform-origin: 50% 50%;
     transition: transform 0.45s ease-out;
@@ -52,7 +54,7 @@
 
   &:hover {
     transition: all 0.5s ease-out;
-    color: #000000;
+    color: variables.$backgroundColorDark;
 
     a {
       visibility: visible;
@@ -62,6 +64,14 @@
       transform: scale(40);
     }
   }
+}
+
+.kapitel {
+  @include item(variables.$highlightColor)
+}
+
+.fragment {
+  @include item(variables.$disabledColor)
 }
 
 .title {

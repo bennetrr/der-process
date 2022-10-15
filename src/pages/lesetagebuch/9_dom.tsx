@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"} desc={"Der Veitsdom auf der Prager Burg"} />
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 9: Im Dom</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

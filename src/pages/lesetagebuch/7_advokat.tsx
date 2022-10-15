@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImageColor uri={"/img/kapiteluebersicht/Kap7_Heidelandschaft.jpg"} desc={"Heidelandschaft Postbank"} />
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 7: Advokat / Fabrikant / Maler</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

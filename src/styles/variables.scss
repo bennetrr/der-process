@@ -1,9 +1,10 @@
-$background-color: #1a1a1a;
-$background-color-dark: #000000;
-$highlight-color: #ffe502;
-$close-color: #b65a5a;
-$font-color: #ffffff;
+$backgroundColor: #1a1a1a;
+$backgroundColorDark: #000000;
+$textColor: #ffffff;
+$highlightColor: #ffe502;
+$disabledColor: #606060;
+$closeButtonColor: #b65a5a;
 
-$seperator-line: $highlight-color 1px solid;
-
-$header-height: 50px;
+$headerHeight: 50px;
+$maxMobileWidth: 1000px;
+$roundedCorners: 10px;

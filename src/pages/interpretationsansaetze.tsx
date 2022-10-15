@@ -15,7 +15,7 @@ export default function Home() {
             <Header/>
 
             <div className={styles.pageContentGray}>
-                <div className={styles.text_only_content}>
+                <div className={styles.textOnlyContent}>
                     <h1>Interpretationsansätze</h1>
                     <h2>Biografischer Ansatz</h2>
                     <ul>

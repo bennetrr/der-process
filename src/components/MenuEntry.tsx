@@ -15,15 +15,15 @@ export default function MenuEntry({text, icon, link, matchBases}: MenuEntryProps
     const routeName = router.pathname;
     let styleName;
 
-    if (routeName == link) styleName = styles.menuItemActive;
-    else if ((matchBases || []).includes(routeName.split('/')[1])) styleName = styles.menuItemChildActive;
-    else styleName = styles.menuItem;
+    if (routeName == link) styleName = styles.itemActive;
+    else if ((matchBases || []).includes(routeName.split('/')[1])) styleName = styles.itemActiveChild;
+    else styleName = styles.item;
 
     return (
         <Link href={link}>
             <div className={styleName}>
                 {icon === undefined ? <></> : <FontAwesomeIcon icon={icon} className={styles.menuItemIcon}/>}
-                {text === undefined ? <></> : <span className={styles.menuItemText}>{text}</span>}
+                {text === undefined ? <></> : <span className={styles.itemText}>{text}</span>}
             </div>
         </Link>
     );

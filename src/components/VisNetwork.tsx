@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, memo } from "react";
+import React, { memo, useEffect, useRef } from "react";
 import { Network } from "vis-network";
 import VisNetworkProps from "../types/VisNetworkProps";
 import useContentDimensions from "../utils/ContentDimensionsHook";
@@ -26,4 +26,6 @@ export default memo(function VisNetwork({nodes, edges, options, events, getNetwo
     return (
         <div ref={container} style={{width: contentWidth, height: contentHeight}}/>
     );
-}, () => {return true});
+}, () => {
+    return true
+});

@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImage uri={"/img/kapiteluebersicht/Kap10_Zeichnung.jpg"} desc={"Zeichnung fon K.'s Entführung"}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 10: Ende</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

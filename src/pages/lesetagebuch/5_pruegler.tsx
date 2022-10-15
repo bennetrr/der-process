@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImage uri={"/img/kapiteluebersicht/Kap5_Prügler.jpg"} desc={"Zeichnung \"Der Prügler\""} />
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 5: Der Prügler</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

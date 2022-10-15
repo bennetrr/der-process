@@ -16,8 +16,8 @@ export default function Home() {
             <BackgroundImage uri={"/img/kapiteluebersicht/Kap2_Hausflur.jpg"} desc={"Hausflur mit Tür und Fliesen"} />
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 2: Gespräch mit Frau Grubach, dann Fräulein Bürstner</h1>
                     <h2>Inhalt</h2>
                     <p>

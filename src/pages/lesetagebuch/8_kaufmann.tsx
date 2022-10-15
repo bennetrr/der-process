@@ -14,7 +14,7 @@ export default function Home() {
 
             <Header/>
             <div className={styles.pageContentGray}>
-                <div className={styles.text_only_content}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 8: Kaufmann Block / Kündigung des Advokaten</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>

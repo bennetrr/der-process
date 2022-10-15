@@ -6,8 +6,8 @@ import { faHome, faInfo } from "@fortawesome/free-solid-svg-icons";
 
 function MenuProductEntry() {
     return (
-        <div className={styles.menuItemNonInteractive}>
-            <span className={styles.menuProductEntryTextLine2}><b>Der Process</b></span>
+        <div className={styles.itemNonInteractive}>
+            <span className={styles.appName}><b>Der Process</b></span>
         </div>
     )
 }
