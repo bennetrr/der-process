@@ -5,7 +5,8 @@ import Head from "next/head";
 import Header from "../components/Header";
 
 import VisNetwork from "../components/VisNetwork";
-import { DataSet, Edge, Node, Options } from "vis-network/standalone";
+import { Edge, Node, Options } from "vis-network/peer/umd/vis-network.min";
+import { DataSet } from "vis-data/peer/umd/vis-data.min"
 import createRange from "../utils/CreateRange";
 
 export default function Home() {

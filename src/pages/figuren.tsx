@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 
 import VisNetwork from "../components/VisNetwork";
-import { DataSet, Edge, Node, Options } from "vis-network/standalone";
+import { Edge, Node, Options } from "vis-network/peer/umd/vis-network.min";
+import { DataSet } from "vis-data/peer/umd/vis-data.min"
 import { VisClickEvent, VisNetworkEvent } from "../types/VisNetworkProps";
 import { Network } from "vis-network";
 
