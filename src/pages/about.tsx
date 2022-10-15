@@ -101,12 +101,69 @@ export default function Home() {
                     <ul>
                         <li>
                             <b>Kapitel 1: Verhaftung</b><br/>
-                            <i>Der Prozess</i> (Ausschnitt)<br/>
+                            <i>&quot;Der Prozess&quot;</i> (Ausschnitt)<br/>
                             <ClearLink>https://deutsch.radio.cz/tschechische-buecher-die-sie-lesen-muessen-8683027/8#&gid=asset&pid=7</ClearLink><br/>
                             Autoren: Chantal Montellier und David Mairowitz<br/>
                             Erschienen in: BB art 2009<br/>
                             Lizenz: Unbekannt
                         </li><br/>
+
+                        <li>
+                            <b>Kapitel 2: Gespräch mit Frau Grubach, dann Fräulein Bürstner</b><br/>
+                            Hausflur mit Tür und Fliesen <br/>
+                            <ClearLink>https://www.fotocommunity.de/photo/spiegeltag-haustuer-in-den-fliesen-am-flur-trugbild/44103933</ClearLink><br/>
+                            Autor: Trugbild (via fotocommunity) <br/>
+                            Lizenz: Unbekannt
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 3: Erste Untersuchungen</b><br/>
+                            Ein Prozess im Gericht des Belem Prison, Mexico <br/>
+                            <ClearLink>https://commons.wikimedia.org/wiki/File:Court_Room_in_Belen.JPG</ClearLink><br/>
+                            Aus: <i>&quot;Mexico: A Photographic History&quot;</i><br/>
+                            Autoren: Rosa Casanova and Adriana Konzevik (via Wikimedia Commons) <br/>
+                            Lizenz: Gemeinfrei
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 4: Im leeren Sitzungssaal / Der Student / Die Kanzleien</b><br/>
+                            Das moderne Schreibbüro um 1900 <br/>
+                            <ClearLink>https://www.mv-online.de/lokales/rheine/aufm-buero-schreiben-und-rechnen-noch-ganz-ohne-strom-255507.html</ClearLink><br/>
+                            Autor: Textilmuseum Rheine <br/>
+                            Lizenz: Unbekannt
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 5: Prügler</b><br/>
+                            Zeichnung: Kafka - Der Prozess - Prügler <br/>
+                            <ClearLink>https://www.kunstnet.de/werk/163717-kafka-der-prozess-pruegler</ClearLink><br/>
+                            Autor: Elke Rehder (via kunstnet) <br/>
+                            Lizenz: Unbekannt
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 7: Advokat / Fabrikant / Maler</b><br/>
+                            Heidelandschaft Postbank <br/>
+                            <ClearLink>https://www.flickr.com/photos/123652679@N04/36082974684/</ClearLink><br/>
+                            Autor: jwfoto1973 (via flickr) <br/>
+                            Lizenz: Unbekannt
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 9: Im Dom</b><br/>
+                            Der Veitsdom auf der Prager Burg <br/>
+                            <ClearLink>https://commons.wikimedia.org/wiki/File:Praga_0947_globus_belarusi-2.jpg</ClearLink><br/>
+                            Autor: GlobusBelarusi (via Wikimedia Commons) <br/>
+                            Lizenz: <a href="https://www.gnu.org/licenses/fdl-1.3.html">GNU FDL</a> und <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+                        </li><br/>
+
+                        <li>
+                            <b>Kapitel 10: Ende</b><br/>
+                            Zeichnung von K.&apos;s Entführung <br/>
+                            <ClearLink>https://www.youtube.com/watch?v=J6eN-sTllAA</ClearLink> (Thumbnail) <br/>
+                            Autor: Richard Elze (via YouTube u/ Pietro Harlem) <br/>
+                            Lizenz: Unbekannt
+                        </li>
                     </ul>
                 </div>
             </div>

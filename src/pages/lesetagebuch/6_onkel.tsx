@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+            <div className={styles.pageContentGray}>
                 <div className={styles.text_only_content}>
                     <h1>Kapitel 6: Der Onkel / Leni</h1>
                     <h2>Inhaltswiedergabe</h2>

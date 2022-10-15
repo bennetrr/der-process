@@ -15,6 +15,17 @@ export function BackgroundImage({uri, desc}: BackgroundImageProps) {
     )
 }
 
+export function BackgroundImageColor({uri, desc}: BackgroundImageProps) {
+    return (
+        <>
+            <div className={styles.backgroundImageFilterColor}/>
+            <div className={styles.backgroundImage}>
+                <NextImage src={uri} alt={desc} layout={"fill"} objectFit={"cover"} quality={100}/>
+            </div>
+        </>
+    )
+}
+
 export function calculateImageSizes(width: number | "auto", height: number | "auto", originalWidth: number | undefined, originalHeight: number | undefined): calculatedImageSizes {
     // Automatic scaling does not preserve the ratio of the picture, so it's not supported
     if (width === "auto" && height === "auto") throw new Error(`Image: Width and height cannot be both \"auto\".`);

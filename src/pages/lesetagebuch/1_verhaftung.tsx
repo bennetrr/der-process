@@ -13,7 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/kafka_proces1.jpg"} desc={"Auszug einer Comicfassung von \"Der Process\""}/>
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap1_Comic.jpg"} desc={"Auszug einer Comicfassung von \"Der Process\""}/>
             <Header/>
 
             <div className={styles.page_content}>
