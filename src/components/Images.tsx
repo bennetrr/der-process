@@ -9,7 +9,7 @@ export function BackgroundImage({uri, desc}: BackgroundImageProps) {
         <>
             <div className={styles.backgroundImageFilter}/>
             <div className={styles.backgroundImage}>
-                <NextImage src={uri} alt={desc} layout={"fill"}/>
+                <NextImage src={uri} alt={desc} layout={"fill"} objectFit={"cover"} quality={100}/>
             </div>
         </>
     )

@@ -34,13 +34,14 @@
   }
 }
 
-@mixin bg_img($z: -100) {
+@mixin bg_img($z) {
   position: fixed;
   top: 0;
   left: 0;
   z-index: $z;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - #{variables.$header-height});
+  margin-top: variables.$header-height;
   overflow: hidden;
 
   cursor: default;
