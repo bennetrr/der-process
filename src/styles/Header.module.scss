@@ -39,6 +39,7 @@
   &:hover {
     color: variables.$highlight-color;
     border-top: variables.$seperator-line;
+    padding-top: 4px;
   }
 }
 
@@ -46,6 +47,17 @@
   @extend .menuItemNonInteractive;
   border-top: variables.$seperator-line;
   border-top-width: 3px;
+  padding-top: 2px;
+}
+
+.menuItemChildActive {
+  @extend .menuItemActive;
+
+    &:hover {
+      color: variables.$highlight-color;
+      border-top: variables.$seperator-line;
+      padding-top: 4px;
+  }
 }
 
 .menuItemText {

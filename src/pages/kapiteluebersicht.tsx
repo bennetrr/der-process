@@ -16,7 +16,7 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={genericStyles.page_content} style={{background: '#1a1a1a'}}>
+            <div className={genericStyles.pageContentGray}>
                 <h1>Kapitelübersicht</h1>
                 <div className={styles.container}>
                     <div className={styles.item}>

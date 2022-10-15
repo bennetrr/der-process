@@ -3,6 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
+import { BackgroundImage } from "../../components/Images";
 
 export default function Home() {
     return (
@@ -12,8 +13,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"} desc={"Der Veitsdom auf der Prager Burg"} />
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+
+            <div className={styles.page_content}>
                 <div className={styles.text_only_content}>
                     <h1>Kapitel 9: Im Dom</h1>
                     <h2>Inhaltswiedergabe</h2>

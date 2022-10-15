@@ -3,6 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
+import { BackgroundImageColor } from "../../components/Images";
 
 export default function Home() {
     return (
@@ -12,8 +13,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <BackgroundImageColor uri={"/img/kapiteluebersicht/Kap7_Heidelandschaft.jpg"} desc={"Heidelandschaft Postbank"} />
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+
+            <div className={styles.page_content}>
                 <div className={styles.text_only_content}>
                     <h1>Kapitel 7: Advokat / Fabrikant / Maler</h1>
                     <h2>Inhaltswiedergabe</h2>

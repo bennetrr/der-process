@@ -5,7 +5,7 @@ export interface BackgroundImageProps {
 
 export interface ImageProps {
     uri: string
-    desc: string
+    alt: string
     originalWidth?: number
     originalHeight?: number
     width: number | "auto"

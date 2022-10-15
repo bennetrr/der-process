@@ -4,5 +4,5 @@ export default interface MenuEntryProps {
     text?: string
     icon?: IconDefinition
     link: string
-    right?: boolean
+    matchBases?: string[]
 }

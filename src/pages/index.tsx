@@ -3,6 +3,7 @@ import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
+import { Image } from "../components/Images";
 
 export default function Home() {
     return (
@@ -13,7 +14,9 @@ export default function Home() {
             </Head>
 
             <Header/>
-            <div className={styles.page_content} style={{background: '#1a1a1a'}}>
+            <div className={styles.pageContentGray}>
+                <Image uri={"/img/Cover.jpg"} alt={"Cover von \"Der Process\""} width={"auto"} height={500} originalWidth={313} originalHeight={475}/>
+
                 <h2>Franz Kafka</h2>
                 <h1>Der Process</h1>
                 <h3>Lesetagebuch von Bennet Ranft</h3>
