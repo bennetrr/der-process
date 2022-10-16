@@ -14,15 +14,15 @@ export default function Home() {
 
             <Header/>
             <div className={styles.pageContentGray}>
-                <div className={styles.text_only_content}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 8: Kaufmann Block / Kündigung des Advokaten</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
                         K. ist beim Haus des Advokaten, um ihm seine Kündigung mitzuteilen. Nach zweimaligem Klingeln
                         öffnet ihm ein Mann die Tür, der sich als Kaufmann Block vorstellt. K. unterstellt ihm, ein
                         Liebhaber von Leni zu sein, später erfährt er aber, dass er auch ein Mandat des Advokaten ist
-                        und selbst in einem Prozess ist. Block erzählt von seinem Prozess, der im Allgemeinen dem von K.
-                        gleicht, allerdings schon 5 Jahre andauert. Er schildert auch die gleichen Eindrücke von Huld,
+                        und selbst in einem Prozess steckt. Block erzählt von seinem Prozess, der im Allgemeinen dem von
+                        K. gleicht, allerdings schon 5 Jahre andauert. Er schildert auch die gleichen Eindrücke von Huld,
                         weshalb er auch noch 5 weitere Advokaten habe. Dann sagt Block, dass er K. im Wartezimmer des
                         Gerichts begegnet sei, und erzählt von einem Aberglauben, der besagt, dass man den Ausgang eines
                         Falles an den Lippen eines Angeklagten ablesen könne.
@@ -35,14 +35,15 @@ export default function Home() {
                         unbedeutend eingeschätzt habe, sich aber jetzt mehr mit dem Prozess beschäftige und immer noch
                         auf Hulds Eingreifen wartete. Daraufhin folgt eine Rede von Huld, die beinhaltete, dass seine
                         langsame Arbeitsweise an der großen Anstrengung, die er auf Prozesse verwende und die ihn
-                        letztendlich krank gemacht hat, läge.
+                        letztendlich krank gemacht habe, läge.
                     </p>
                     <p>
-                        Weil K. die Argumente nicht überzeugen können, ruft Huld den Kaufmann Block herein, welcher sehr
-                        ängstlich und unterwürfig ist. Es folgt eine Auseinandersetzung, die damit startet, dass Huld
+                        Weil K. die Argumente nicht überzeugen können, ruft Huld den Kaufmann Block herein, welcher sich
+                        sehr
+                        ängstlich und unterwürfig gibt. Es folgt eine Auseinandersetzung, die damit startet, dass Huld
                         Block vorwirft, immer ungelegen zu kommen. Kurz darauf kommt Leni herein und beteiligt sich an
                         der Demütigung. Sie berichtet, wie sie den Kaufmann im Dienstmädchenzimmer eingeschlossen habe.
-                        Der Streit bekräftigt K.&apos;s Entscheidung, den Advokaten zu kündigen.
+                        Der Streit bekräftigt K.&apos;s Entscheidung, dem Advokaten zu kündigen.
                     </p>
 
                     <h2>Personen</h2>

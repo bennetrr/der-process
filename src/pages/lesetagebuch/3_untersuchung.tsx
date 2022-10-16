@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -13,15 +13,16 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap3_Court_Room_in_Belen.jpg"} desc={"Ein Prozess im Gericht des Belem Prison, Mexico"}/>
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap3_Court_Room_in_Belen.jpg"}
+                             desc={"Ein Prozess im Gericht des Belem Prison, Mexico"}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 3: Erste Untersuchungen</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
-                        K. wurde telefonisch bescheid gesagt, dass er am Sonntag zu einer Untersuchung gehen muss.
+                        K. wurde telefonisch Bescheid gesagt, dass er am Sonntag zu einer Untersuchung gehen muss.
                         Direkt danach lädt ihn der Direktor-Stellvertreter, mit dem K. sich nie gut vertragen hat, am
                         gleichen Sonntag auf sein Segelboot ein, was K. leider ablehnen muss. Kurz nach dem Telefonat
                         fällt K. ein, dass ihm keine Uhrzeit für sein Erscheinen gesagt wurde.
@@ -48,7 +49,7 @@ export default function Home() {
                         <li>Josef K.</li>
                         <li>Direktor-Stellvertreter</li>
                         <li>Untersuchungsrichter</li>
-                        <li>Weitere Beteiligte der Untersuchung</li>
+                        <li>weitere Beteiligte der Untersuchung</li>
                     </ul>
 
                     <h2>Orte</h2>

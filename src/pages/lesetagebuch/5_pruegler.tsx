@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -13,11 +13,11 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap5_Prügler.jpg"} desc={"Zeichnung \"Der Prügler\""} />
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap5_Prügler.jpg"} desc={"Zeichnung \"Der Prügler\""}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 5: Der Prügler</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
@@ -26,7 +26,7 @@ export default function Home() {
                         einen dritten Mann, der <i>&quot; eine Art dunkle Lederkleidung, die den Hals bis tief zur Brust
                         und die ganzen Arme nackt ließ&quot;</i> trägt und eine Rute in der Hand hält. Willem sagt, dass
                         K. sie beim Untersuchungsrichter angezeigt habe und sie deshalb bestraft werden sollen. K.
-                        entgegnet, dass er, wenn er etwas von der Strafe gewusst habe, sie niemals angezeigt hätte.
+                        entgegnet, dass er, wenn er etwas von der Strafe gewusst hätte, sie niemals angezeigt hätte.
                     </p>
                     <p>
                         Die Wächter beschweren sich noch etwas bei K. über die Konsequenzen der Anzeige, dann befiehlt
@@ -34,7 +34,7 @@ export default function Home() {
                         Dann fängt der Prügler an zu prügeln. Als Franz schreit, kommen zwei Diener angelaufen und
                         fragen, was passiert ist, die K. mit einer Ausrede wieder wegschickt. Danach bleibt K. auf dem
                         Flur stehen und denkt nach. Er beschuldigt die Diener dafür, dass er den Prügler nicht
-                        überzeugen konnte. Er denkt, dass er den Prügler etwa später mit mehr Geld bestechen könne, und
+                        überzeugen konnte. Er denkt, dass er den Prügler etwas später mit mehr Geld bestechen könne, und
                         würde sich sogar für die Wächter opfern. Dann geht er nach Hause.
                     </p>
                     <p>
@@ -46,19 +46,19 @@ export default function Home() {
                     <h2>Personen</h2>
                     <h3>Josef K.</h3>
                     <ul>
-                        <li>Besorgt um die Wächter</li>
-                        <li>Fühlt sich schuldig</li>
+                        <li>besorgt um die Wächter</li>
+                        <li>fühlt sich schuldig</li>
                     </ul>
 
                     <h3>Wächter Franz und Willem</h3>
                     <ul>
-                        <li>Haben Angst</li>
-                        <li>Sind wütend auf K.</li>
+                        <li>haben Angst</li>
+                        <li>sind wütend auf K.</li>
                     </ul>
 
                     <h3>Der Prügler</h3>
                     <ul>
-                        <li>Hat mindestens etwas gefallen an der Sache</li>
+                        <li>hat mindestens etwas Gefallen an der Sache</li>
                     </ul>
 
                     <h3>Weitere Personen</h3>

@@ -5,8 +5,8 @@ import Head from "next/head";
 import Header from "../components/Header";
 
 import VisNetwork from "../components/VisNetwork";
-import { Edge, Node, Options } from "vis-network/peer/umd/vis-network.min";
-import { DataSet } from "vis-data/peer/umd/vis-data.min"
+import {Edge, Node, Options} from "vis-network/peer/umd/vis-network.min";
+import {DataSet} from "vis-data/peer/umd/vis-data.min";
 import createRange from "../utils/CreateRange";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
     ]);
 
     const edges = new DataSet<Edge, "id">(createRange(1, 8).map(x => {
-        return {id: `0->${x}`, from: 0, to: x}
+        return {id: `0->${x}`, from: 0, to: x};
     }));
 
     const options: Options = {

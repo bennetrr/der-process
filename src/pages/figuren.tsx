@@ -1,25 +1,25 @@
-import React, { useCallback, useRef, useState } from "react";
+import React, {useCallback, useRef, useState} from "react";
 import genericStyles from "../styles/Page.module.scss";
-import pageStyles from "../styles/Figurentableau.module.scss"
+import pageStyles from "../styles/Figurentableau.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClose, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faClose, faFolderOpen} from "@fortawesome/free-solid-svg-icons";
 
 import VisNetwork from "../components/VisNetwork";
-import { Edge, Node, Options } from "vis-network/peer/umd/vis-network.min";
-import { DataSet } from "vis-data/peer/umd/vis-data.min"
-import { VisClickEvent, VisNetworkEvent } from "../types/VisNetworkProps";
-import { Network } from "vis-network";
+import {Edge, Node, Options} from "vis-network/peer/umd/vis-network.min";
+import {DataSet} from "vis-data/peer/umd/vis-data.min";
+import {VisClickEvent, VisNetworkEvent} from "../types/VisNetworkProps";
+import {Network} from "vis-network";
 
 import figurenData from "../components/FigurenData";
 
 
 //region Network Data
 const nodes = new DataSet<Node, "id">([
-    {id:   0, label: "Josef K.", },
+    {id: 0, label: "Josef K."},
 
     // K.'s Familie
     {id: 100, group: "familie", label: "Familie"},
@@ -63,12 +63,12 @@ const nodes = new DataSet<Node, "id">([
 
 const edges = new DataSet<Edge, "id">([
     // K.'s Familie
-    {id:   "0->100", from:   0, to: 100, label: "Distanziert / Besorgt"},
+    {id: "0->100", from: 0, to: 100, label: "Distanziert / Besorgt"},
     {id: "100->101", from: 100, to: 101, label: "Onkel / Neffe"},
     {id: "100->102", from: 100, to: 102, label: "Cousine / Cousin"},
 
     // Gerichtspersonen
-    {id:   "0->200", from:   0, to: 200, label: ""},
+    {id: "0->200", from: 0, to: 200, label: ""},
     {id: "200->201", from: 200, to: 201, label: "Verhaften"},
     {id: "200->202", from: 200, to: 202, label: ""},
     {id: "200->203", from: 200, to: 203, label: ""},
@@ -79,13 +79,13 @@ const edges = new DataSet<Edge, "id">([
     {id: "200->208", from: 200, to: 208, label: ""},
 
     // Arbeit / Bank
-    {id:   "0->300", from:   0, to: 300, label: ""},
+    {id: "0->300", from: 0, to: 300, label: ""},
     {id: "300->301", from: 300, to: 301, label: "Kollegen"},
     {id: "300->302", from: 300, to: 302, label: ""},
     {id: "300->303", from: 300, to: 303, label: ""},
 
     // Frauen
-    {id:   "0->400", from:   0, to: 400, label: ""},
+    {id: "0->400", from: 0, to: 400, label: ""},
     {id: "400->401", from: 400, to: 401, label: "Vermieterin"},
     {id: "400->402", from: 400, to: 402, label: "Nachbarin"},
     {id: "400->403", from: 400, to: 403, label: ""},
@@ -94,7 +94,7 @@ const edges = new DataSet<Edge, "id">([
     {id: "400->406", from: 400, to: 406, label: ""},
 
     // Helfer K.'s
-    {id:   "0->500", from:   0, to: 500, label: ""},
+    {id: "0->500", from: 0, to: 500, label: ""},
     {id: "500->501", from: 500, to: 501, label: ""},
     {id: "500->502", from: 500, to: 502, label: ""},
     {id: "500->503", from: 500, to: 503, label: ""},
@@ -110,11 +110,11 @@ const edges = new DataSet<Edge, "id">([
     {id: "403->205", from: 403, to: 205, label: "Ehe"},  // Gerichtsdiener ⚭ Frau
     {id: "403->204", from: 403, to: 204, label: "Verhältnis"},  // Frau des Gerichtsdieners <-> Student
     {id: "503->504", from: 503, to: 504, label: "Freunde"},  // Maler <-> Fabrikant
-    {id: "501->502", from: 501, to: 502, label: "Freunde"},  // Advokat <-> Kanzleidirektor
+    {id: "501->502", from: 501, to: 502, label: "Freunde"}  // Advokat <-> Kanzleidirektor
 ]);
 
 const options: Options = {
-    configure: { enabled: false },
+    configure: {enabled: false},
     autoResize: false,
     edges: {
         color: {
@@ -123,7 +123,7 @@ const options: Options = {
         },
         font: {
             color: "#ffffff",
-            strokeWidth: 0,
+            strokeWidth: 0
         },
         smooth: false
     },
@@ -136,7 +136,7 @@ const options: Options = {
                 border: "#ffe502"
             }
         },
-        font: { color: "#ffffff" },
+        font: {color: "#ffffff"},
         //@ts-ignore
         margin: 15,
         shape: "box"
@@ -150,7 +150,7 @@ const options: Options = {
                     background: "#000000",
                     border: "#ff9102"
                 }
-            },
+            }
         },
         gericht: {
             color: {
@@ -160,7 +160,7 @@ const options: Options = {
                     background: "#000000",
                     border: "#02b3ff"
                 }
-            },
+            }
         },
         arbeit: {
             color: {
@@ -170,7 +170,7 @@ const options: Options = {
                     background: "#000000",
                     border: "#02ff3d"
                 }
-            },
+            }
         },
         frauen: {
             color: {
@@ -180,7 +180,7 @@ const options: Options = {
                     background: "#000000",
                     border: "#6702ff"
                 }
-            },
+            }
         },
         helfer: {
             color: {
@@ -190,12 +190,12 @@ const options: Options = {
                     background: "#000000",
                     border: "#ff0202"
                 }
-            },
+            }
         }
     },
     physics: {
         solver: "hierarchicalRepulsion",
-        hierarchicalRepulsion: { avoidOverlap: 1 }
+        hierarchicalRepulsion: {avoidOverlap: 1}
     },
     interaction: {
         dragNodes: false,
@@ -221,7 +221,7 @@ export default function Home() {
         // Show a notification if the selected object has no data
         if (!(selected in figurenData)) {
             setNoInfoNotificationVis(true);
-            setTimeout(() => setNoInfoNotificationVis(false), 5*1000);
+            setTimeout(() => setNoInfoNotificationVis(false), 5 * 1000);
             deselectElement();
             return;
         }
@@ -238,7 +238,7 @@ export default function Home() {
         const temp: JSX.Element[] = [];
         // @ts-ignore
         for (let key in figurenData) temp.push(figurenData[key]);
-        setSelected(<>{temp}</>)
+        setSelected(<>{temp}</>);
     };
 
     const events: VisNetworkEvent[] = [
@@ -260,14 +260,18 @@ export default function Home() {
             <div className={genericStyles.pageContentGray}>
                 <VisNetwork nodes={nodes} edges={edges} options={options} events={events} getNetwork={getNetwork}/>
 
-                <div className={pageStyles.floatingWarningContainer} style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
+                <div className={pageStyles.floatingWarningContainer}
+                     style={{visibility: problemWarningVis ? "visible" : "hidden"}}>
                     <div className={pageStyles.floatingWarning}>
-                        Ansicht kann bewegt und mit dem Mausrad gezoomt werden. Für Details auf Knoten oder Verbindungen klicken.
-                        <FontAwesomeIcon icon={faClose} className={pageStyles.floatingWarningCloseIcon} onClick={() => setProblemWarningVis(false)}/>
+                        Ansicht kann bewegt und mit dem Mausrad gezoomt werden. Für Details auf Knoten oder Verbindungen
+                        klicken.
+                        <FontAwesomeIcon icon={faClose} className={pageStyles.floatingWarningCloseIcon}
+                                         onClick={() => setProblemWarningVis(false)}/>
                     </div>
                 </div>
 
-                <div className={pageStyles.noInfoNotificationContainer} style={{visibility: noInfoNotificationVis ? "visible" : "hidden"}}>
+                <div className={pageStyles.noInfoNotificationContainer}
+                     style={{visibility: noInfoNotificationVis ? "visible" : "hidden"}}>
                     <div className={pageStyles.noInfoNotification}>
                         Keine Informationen verfügbar
                     </div>
@@ -277,9 +281,11 @@ export default function Home() {
                     <FontAwesomeIcon icon={faFolderOpen}/>
                 </div>
 
-                <div className={pageStyles.figurenPopupContainer} style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
+                <div className={pageStyles.figurenPopupContainer}
+                     style={{visibility: selected !== undefined ? "visible" : "hidden"}} onClick={deselectElement}>
                     <div className={pageStyles.figurenPopup} onClick={e => e.stopPropagation()}>
-                        <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon} onClick={deselectElement}/>
+                        <FontAwesomeIcon icon={faClose} className={pageStyles.figurenPopupCloseIcon}
+                                         onClick={deselectElement}/>
                         {selected || <p>Ein Fehler ist aufgetreten</p>}
                     </div>
                 </div>

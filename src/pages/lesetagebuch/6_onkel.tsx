@@ -14,7 +14,7 @@ export default function Home() {
 
             <Header/>
             <div className={styles.pageContentGray}>
-                <div className={styles.text_only_content}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 6: Der Onkel / Leni</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
@@ -29,10 +29,10 @@ export default function Home() {
                     <p>
                         Albert beschließt, mit K. zum Advokaten Huld (= Rechtsanwalt) zu fahren. Auf der Fahrt erzählt
                         K. die bisherigen Ereignisse. Beim Advokaten teilt ihnen das Dienstmädchen Leni mit, dass der
-                        Advokat krank ist. Nach einer Diskussion verlässt Leni den Raum und die drei fangen an, über
+                        Advokat krank sei. Nach einer Diskussion verlässt Leni den Raum und die drei fangen an, über
                         K.&apos;s Prozess zu sprechen. K. ist erstaunt, dass der Advokat schon von dem Prozess gehört
-                        hat. Huld spricht davon, dass er viel Besuch von Gerichtsbeamten bekommen und deshalb viel
-                        mitbekommt, und sagt auch, dass jetzt gerade jemand zu Besuch sei. Dann gibt er jemandem, der
+                        hat. Huld spricht davon, dass er viel Besuch von Gerichtsbeamten bekommt und deshalb viel
+                        erfährt, und sagt auch, dass jetzt gerade jemand zu Besuch sei. Dann gibt er jemandem, der
                         sich im Zimmer versteckt hat, ein Zeichen, zu kommen, und stellt ihn als Kanzleidirektor vor.
                         Albert, Huld und der Kanzleidirektor unterhalten sich und beachten K. dabei nicht.
                     </p>
@@ -40,7 +40,7 @@ export default function Home() {
                         Dann hört K. ein Geräusch aus dem Vorzimmer und geht aus dem Zimmer, um nach der Ursache zu
                         gucken. Im Vorzimmer wartet Leni und sagt, sie habe nur einen Teller an die Wand geworfen, um K.
                         aus dem Zimmer zu holen. Dann führt sie ihn in das Arbeitszimmer von Huld und fragt ihn, warum
-                        er nicht von alleine gekommen ist. Einerseits wirft sie sich K. geradezu an den Hals,
+                        er nicht von alleine gekommen sei. Einerseits wirft sie sich K. geradezu an den Hals,
                         andererseits redet sie von Elsa als K.&apos;s Geliebte und davon, dass sie ihm nicht gefalle.
                         Offensichtlich weiß sie einiges über K.&apos;s Prozess und über Gerichte im Allgemeinen, da sie
                         K. ihre Hilfe anbietet, allerdings nur, wenn er ein Geständnis abgibt. Als K. sie küsst, gibt
@@ -56,27 +56,27 @@ export default function Home() {
                     <h2>Personen</h2>
                     <h3>Albert (K.&apos;s Onkel)</h3>
                     <ul>
-                        <li>In Eile</li>
-                        <li>Macht sich Sorgen um K. und den Prozess</li>
-                        <li>Aufgebracht / Nervös / Verängstigt</li>
-                        <li>Enttäuscht von K.&apos;s Ruhe</li>
-                        <li>Besorgt um das Ansehen der K.-Familie</li>
+                        <li>in Eile</li>
+                        <li>macht sich Sorgen um K. und den Prozess</li>
+                        <li>aufgebracht / nervös / verängstigt</li>
+                        <li>enttäuscht von K.&apos;s Ruhe</li>
+                        <li>besorgt um das Ansehen der K.-Familie</li>
                     </ul>
 
                     <h3>Josef K.</h3>
                     <ul>
-                        <li>Gleichgültig über den Prozess</li>
+                        <li>gleichgültig über den Prozess</li>
                     </ul>
 
                     <h3>Advokat Huld</h3>
                     <ul>
-                        <li>Früherer Schulkollege von Albert</li>
-                        <li>Bedeutender Verteidiger und Armenadvokat</li>
+                        <li>früherer Schulkollege von Albert</li>
+                        <li>bedeutender Verteidiger und Armenadvokat</li>
                     </ul>
 
                     <h3>Leni (Hulds Pflegerin)</h3>
                     <ul>
-                        <li>Unterwürfig</li>
+                        <li>unterwürfig</li>
                     </ul>
 
                     <h3>Weitere Personen</h3>

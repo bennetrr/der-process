@@ -2,9 +2,9 @@
 
 .pageContent {
   display: flex;
-  min-height: calc(100vh - #{variables.$header-height});
-  margin-top: variables.$header-height;
-  background-color: variables.$background-color;
+  min-height: calc(100vh - #{variables.$headerHeight});
+  margin-top: variables.$headerHeight;
+  background-color: variables.$backgroundColor;
 
   @media screen and (max-width: 1000px) {
     flex-direction: column
@@ -22,7 +22,7 @@
 
 .aboutContainer {
   @include container(0.4);
-  background-color: variables.$background-color-dark;
+  background-color: variables.$backgroundColorDark;
   border-radius: 30px;
   margin: 20px;
   overflow: hidden;

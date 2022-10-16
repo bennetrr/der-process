@@ -1,21 +1,31 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from "../styles/Header.module.scss";
 
 import MenuEntry from "./MenuEntry";
-import { faHome, faInfo } from "@fortawesome/free-solid-svg-icons";
+import {faHome, faInfo} from "@fortawesome/free-solid-svg-icons";
+import {useRouter} from "next/router";
+import isBrowserCompatible from "../utils/CheckBrowserCompatibility";
 
-function MenuProductEntry() {
+function AppName() {
     return (
-        <div className={styles.menuItemNonInteractive}>
-            <span className={styles.menuProductEntryTextLine2}><b>Der Process</b></span>
+        <div className={styles.itemNonInteractive}>
+            <span className={styles.appName}><b>Der Process</b></span>
         </div>
-    )
+    );
 }
 
 export default function Header() {
+    const router = useRouter();
+
+    useEffect(() => {
+        if (isBrowserCompatible()) return;
+        if (router.pathname == "/incompatible") return;
+        void router.push("/incompatible");
+    });
+
     return (
         <div className={styles.header}>
-            <MenuProductEntry/>
+            <AppName/>
             <MenuEntry link={"/"} icon={faHome}/>
             <MenuEntry text={"Biografie"} link={"/biografie"}/>
             <MenuEntry text={"Entstehungskontext"} link={"/entstehungskontext"}/>

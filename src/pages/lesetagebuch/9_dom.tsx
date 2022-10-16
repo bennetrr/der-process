@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -13,24 +13,25 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"} desc={"Der Veitsdom auf der Prager Burg"} />
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"}
+                             desc={"Der Veitsdom auf der Prager Burg"}/>
             <Header/>
 
-            <div className={styles.page_content}>
-                <div className={styles.text_only_content}>
+            <div className={styles.pageContent}>
+                <div className={styles.textOnlyContent}>
                     <h1>Kapitel 9: Im Dom</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
                         K. soll einem italienischen Geschäftspartner der Bank die Stadt zeigen. Da er in der letzten
                         Zeit mehrere Außendienste machen musste, vermutet er dahinter einen Vorwand des
-                        Direktor-Stellvertreters sei, um ihn von der Bank wegzubekommen und das Büro zu durchsuchen.
+                        Direktor-Stellvertreters, um ihn von der Bank wegzulocken und um das Büro durchsuchen zu können.
                         Trotzdem nimmt er den Auftrag an und trifft sich mit dem Direktor und dem Geschäftspartner.
                         Obwohl K. seine Italienischkenntnisse geübt hatte, versteht er den Geschäftspartner schlecht, im
-                        Gegensatz zum Direktor. K. und der Italiener verabreden für in zwei Stunden einer
+                        Gegensatz zum Direktor. K. und der Italiener verabreden sich für in zwei Stunden zu einer
                         Dombesichtigung. Während der Wartezeit lernt K. weiter italienische Vokabeln, die er für die
-                        Besichtigung braucht, unterbrochen von mehreren Störungen des Direktor-Stellvertreters und einem
-                        Anruf von Leni. Als er rechtzeitig am Dom ankommt, ist der Italiener noch nicht da, weswegen
-                        sich K. in die Kirche setzt.
+                        Besichtigung braucht. Er wird durch mehrere Störungen des Direktor-Stellvertreters und einen
+                        Anruf von Leni unterbrochen. Als er rechtzeitig am Dom ankommt, ist der Italiener noch nicht da.
+                        K. setzt sich in die Kirche.
                     </p>
                     <p>
                         Später entdeckt er eine kleine Kanzel, in der ein Geistlicher steht. Als K. die Kirche verlassen
@@ -54,14 +55,15 @@ export default function Home() {
                     </p>
 
                     <p>
-                        K. entgegnet der Erzählung, dass der Torhüter den Mann getäuscht habe und <i>&quot;die erlösende
+                        K. entgegnet auf die Erzählung, dass der Torhüter den Mann getäuscht habe und <i>&quot;die
+                        erlösende
                         Mitteilung erst dann gemacht [habe], als sie dem Mann nicht mehr helfen konnte&quot;</i>. Der
                         Kaplan verteidigt den Torhüter, er habe ja nur seine Pflicht erfüllt. Der Mann habe nur am
                         Anfang gefragt, ob er eingelassen werden kann, und ihm wurde gesagt, er könne jetzt noch keinen
                         Zutritt bekommen, es sei aber möglich. Danach habe der Mann nicht weiter nachgefragt, erst am
-                        Ende, als er kurz vorm Tod war. Außerdem sei der Torhüter immer freundlich gegenüber dem Mann
+                        Ende, als er kurz vor dem Tod war. Außerdem sei der Torhüter immer freundlich gegenüber dem Mann
                         gewesen. Die beiden unterhalten sich noch weiter über die Geschichte, dann verabschiedet sich
-                        der Kaplan mut den Worten <i>&quot;Das Gericht will nichts von dir. Es nimmt dich auf, wenn du
+                        der Kaplan mit den Worten: <i>&quot;Das Gericht will nichts von dir. Es nimmt dich auf, wenn du
                         kommst und es entlässt dich, wenn du gehst&quot;</i>.
                     </p>
 

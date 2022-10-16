@@ -3,8 +3,8 @@ import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
-import Timeline, { TimelineItem } from "../components/Timeline";
-import { BackgroundImage } from "../components/Images";
+import Timeline, {TimelineItem} from "../components/Timeline";
+import {BackgroundImage} from "../components/Images";
 
 export default function Home() {
     return (
@@ -17,10 +17,10 @@ export default function Home() {
             <BackgroundImage uri={"/img/biografie/Geburtshaus_Kafkas.jpg"} desc={"Kafkas Geburtshaus"}/>
             <Header/>
 
-            <div className={styles.page_content}>
+            <div className={styles.pageContent}>
                 <h1>Biografie zu Franz Kafka</h1>
 
-                <Timeline width={'60%'}>
+                <Timeline width={"60%"}>
                     <TimelineItem date={"3. Juli 1883"} image={{
                         uri: "/img/biografie/Kafka_5_Jahre.jpg",
                         alt: "Kafka mit ca. 5 Jahren",
@@ -122,7 +122,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"Januar 1915"}>
-                        Die Arbeiten am unvollendeten <i>Der Process</i> werden eingestellt.
+                        Die Arbeiten am Roman <i>Der Process</i> werden eingestellt. Er bleibt unvollendet.
                     </TimelineItem>
 
                     <TimelineItem date={"ab November 1916"}>
@@ -161,7 +161,7 @@ export default function Home() {
                         originalWidth: 1751,
                         originalHeight: 2752
                     }}>
-                        Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem der
+                        Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem er
                         über das schlechte Verhältnis zu seinem Vater berichtet. <br/>
                         Der Brief wurde nie an Hermann Kafka abgeschickt.
                     </TimelineItem>

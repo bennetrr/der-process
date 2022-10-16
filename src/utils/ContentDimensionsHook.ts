@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 
 export default function useContentDimensions() {
     const [contentWidth, setContentWidth] = useState(0);
@@ -11,7 +11,7 @@ export default function useContentDimensions() {
 
     useEffect(() => {
         window.addEventListener("resize", updateWidthAndHeight);
-        updateWidthAndHeight()
+        updateWidthAndHeight();
     });
 
     return {contentWidth, contentHeight};
