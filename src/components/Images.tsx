@@ -1,30 +1,27 @@
 import React from "react";
 import styles from "../styles/Page.module.scss";
-import { BackgroundImageProps, ImageProps } from "../types/ImageProps";
+import {BackgroundImageProps, bgImgProps, ImageProps} from "../types/ImageProps";
 
-import { default as NextImage } from "next/image";
-import { calculateImageSizes } from "../utils/CalculateImageSizes";
+import {default as NextImage} from "next/image";
+import {calculateImageSizes} from "../utils/CalculateImageSizes";
 
-export function BackgroundImage({uri, desc}: BackgroundImageProps) {
+function bgImg({uri, desc, filterClassName}: bgImgProps) {
     return (
         <>
-            <div className={styles.backgroundImageFilter}/>
+            <div className={filterClassName}/>
             <div className={styles.backgroundImage}>
                 <NextImage src={uri} alt={desc} layout={"fill"} objectFit={"cover"} quality={100}/>
             </div>
         </>
-    )
+    );
+}
+
+export function BackgroundImage({uri, desc}: BackgroundImageProps) {
+    return bgImg({uri, desc, filterClassName: styles.backgroundImageFilterBW});
 }
 
 export function BackgroundImageColor({uri, desc}: BackgroundImageProps) {
-    return (
-        <>
-            <div className={styles.backgroundImageFilterColor}/>
-            <div className={styles.backgroundImage}>
-                <NextImage src={uri} alt={desc} layout={"fill"} objectFit={"cover"} quality={100}/>
-            </div>
-        </>
-    )
+    return bgImg({uri, desc, filterClassName: styles.backgroundImageFilterColor});
 }
 
 export function Image({uri, alt, height, width, originalWidth, originalHeight}: ImageProps) {

@@ -3,8 +3,8 @@ import styles from "../styles/Header.module.scss";
 import MenuEntryProps from "../types/MenuEntryProps";
 
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRouter } from "next/router";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {useRouter} from "next/router";
 
 export default function MenuEntry({text, icon, link, matchBases}: MenuEntryProps) {
     if (text === undefined && icon === undefined)
@@ -16,7 +16,7 @@ export default function MenuEntry({text, icon, link, matchBases}: MenuEntryProps
     let styleName;
 
     if (routeName == link) styleName = styles.itemActive;
-    else if ((matchBases || []).includes(routeName.split('/')[1])) styleName = styles.itemActiveChild;
+    else if ((matchBases || []).includes(routeName.split("/")[1])) styleName = styles.itemActiveChild;
     else styleName = styles.item;
 
     return (
