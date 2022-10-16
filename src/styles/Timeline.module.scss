@@ -3,6 +3,12 @@
 .container {
   display: flex;
   margin-bottom: 70px;
+  width: 60%;
+
+  @media screen and (max-width: variables.$maxMobileWidth) {
+    width: unset;
+    margin: 20px;
+  }
 }
 
 .line {

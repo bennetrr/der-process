@@ -80,7 +80,7 @@
 .figurenPopupCloseIcon {
   position: absolute;
   right: calc(25% + 15px);
-  padding: 5px;
+  padding: 15px 5px 5px;
 
   &:hover {
     color: variables.$closeButtonColor;

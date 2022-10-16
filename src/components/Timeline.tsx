@@ -5,9 +5,9 @@ import {TimelineItemImageProps, TimelineItemProps, TimelineProps} from "../types
 import {Image} from "./Images";
 import {calculateImageSizes} from "../utils/CalculateImageSizes";
 
-export default function Timeline({children, width}: TimelineProps) {
+export default function Timeline({children}: TimelineProps) {
     return (
-        <div className={styles.container} style={{width: width}}>
+        <div className={styles.container}>
             <div className={styles.line}/>
             <div className={styles.timeline_items}>
                 {children}
