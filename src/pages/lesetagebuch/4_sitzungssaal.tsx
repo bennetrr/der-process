@@ -55,11 +55,11 @@ export default function Home() {
                     <h2>Personen</h2>
                     <h3>Josef K.</h3>
                     <ul>
-                        <li>Selbstsicher</li>
-                        <li>Fühlt sich überlegen</li>
-                        <li>Fühlt sich nicht ernst genommen</li>
-                        <li>Fragt sich, ob das Gericht korrupt ist</li>
-                        <li>Möchte Hilfe</li>
+                        <li>selbstsicher</li>
+                        <li>fühlt sich überlegen</li>
+                        <li>fühlt sich nicht ernst genommen</li>
+                        <li>fragt sich, ob das Gericht korrupt ist</li>
+                        <li>möchte Hilfe</li>
                     </ul>
 
                     <h3>Frau des Gerichtsdieners</h3>
@@ -71,7 +71,7 @@ export default function Home() {
                     <ul>
                         <li>Gerichtsstudent Bertold</li>
                         <li>Gerichtsdiener</li>
-                        <li>Weitere Angeklagte</li>
+                        <li>weitere Angeklagte</li>
                         <li>Auskunftgeber</li>
                         <li>Beamte des Gerichts</li>
                     </ul>
@@ -84,10 +84,10 @@ export default function Home() {
 
                     <h2>Gedanken / Fragen / Eindrücke / Widersprüche</h2>
                     <ul>
-                        <li>Haben die komischen Orte eine bestimmte Bedeutung?</li>
-                        <li>Ist den anderen Angeklagten ähnliches wiederfahren wie K.?</li>
+                        <li>Haben die merkwürdigen Orte eine bestimmte Bedeutung?</li>
+                        <li>Ist den anderen Angeklagten Ähnliches wiederfahren wie K.?</li>
                         <li>Warum ist bis jetzt noch nicht der Name des Gerichts / der Behörde bekannt?</li>
-                        <li>Ist die Anklage wegen irgendwas mit &qout;den Frauen&qout;?</li>
+                        <li>Hat die Anklage irgendetwas mit &quot;den Frauen&quot; zu tun?</li>
                     </ul>
                 </div>
             </div>

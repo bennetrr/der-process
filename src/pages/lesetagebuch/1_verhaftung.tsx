@@ -48,33 +48,33 @@ export default function Home() {
                     <ul>
                         <li>30 Jahre alt</li>
                         <li>Beruf: Prokurist in einer Bank</li>
-                        <li>Gebildet</li>
-                        <li>Freundlich</li>
-                        <li>Erst:</li>
+                        <li>gebildet</li>
+                        <li>freundlich</li>
+                        <li>erst:</li>
                         <ul>
-                            <li>Bleibt unbeeindruckt</li>
-                            <li>Fühlt sich überlegen</li>
-                            <li>Selbstsicher</li>
-                            <li>Versucht, die Beteiligten zu manipulieren</li>
-                            <li>Provokant</li>
-                            <li>Glaubt nicht, dass die Situation reell ist</li>
+                            <li>bleibt unbeeindruckt</li>
+                            <li>fühlt sich überlegen</li>
+                            <li>selbstsicher</li>
+                            <li>versucht, die Beteiligten zu manipulieren</li>
+                            <li>provokant</li>
+                            <li>glaubt nicht, dass die Situation reell ist</li>
                         </ul>
-                        <li>Später:</li>
+                        <li>später:</li>
                         <ul>
-                            <li>Genervt</li>
-                            <li>Suizidale Gedanke</li>
-                            <li>Verunsichert</li>
-                            <li>Kindisch / Stur (Anwalt anrufen</li>
-                            <li>Empfindet die Situation als ungerecht</li>
+                            <li>genervt</li>
+                            <li>suizidale Gedanken</li>
+                            <li>verunsichert</li>
+                            <li>kindisch / stur (Anwalt anrufen)</li>
+                            <li>empfindet die Situation als ungerecht</li>
                         </ul>
                     </ul>
 
                     <h3>Weitere Personen</h3>
                     <ul>
                         <li>Wächter Franz und Willem</li>
-                        <li>Der Aufseher</li>
+                        <li>der Aufseher</li>
                         <li>Frau Grubach</li>
-                        <li>Alte Leute am Fenster</li>
+                        <li>alte Leute am Fenster</li>
                         <li>3 Kollegen der Bank</li>
                     </ul>
 
@@ -94,7 +94,7 @@ export default function Home() {
                         </li>
                         <li>
                             Der Text ist wegen der alten Rechtschreibung und fehlenden Kommas anstrengend zu lesen,
-                            ansonsten geht es.
+                            das Verstehen ist aber nicht unmöglich.
                         </li>
                     </ul>
                 </div>

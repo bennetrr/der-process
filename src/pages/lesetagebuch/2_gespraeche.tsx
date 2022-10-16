@@ -13,7 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap2_Hausflur.jpg"} desc={"Hausflur mit Tür und Fliesen"} />
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap2_Hausflur.jpg"} desc={"Hausflur mit Tür und Fliesen"}/>
             <Header/>
 
             <div className={styles.pageContent}>
@@ -21,7 +21,9 @@ export default function Home() {
                     <h1>Kapitel 2: Gespräch mit Frau Grubach, dann Fräulein Bürstner</h1>
                     <h2>Inhalt</h2>
                     <p>
-                        K. kommt von der Arbeit nach Hause und geht zu Frau Grubach, um mit ihr über die Geschehnisse am
+                        K. kommt von der Arbeit nach Hause. An der Haustür trifft er auf den ihm noch unbekannten Sohn
+                        des Hausmeisters. Nach einem kurzen Wortwechsel geht K. zu Frau Grubach, um mit ihr über die
+                        Geschehnisse am
                         Morgen zu sprechen. Das Gespräch verläuft etwas merkwürdig: Frau Grubach meint zu K., dass eine
                         solche Situation <i>&quot;nicht wieder vorkommen [kann]&quot;</i> und dass K. <i>&quot;es nicht
                         zu schwer nehmen&quot;</i> solle. Außerdem sagt sie, dass ihr die Verhaftung wie
@@ -35,7 +37,7 @@ export default function Home() {
                     </p>
                     <p>
                         Dann erzählt sie, sie habe Fräulein Bürstner des Öfteren immer mit unterschiedlichen Männern
-                        gesehen, was ihr peinlich sei. as macht K. offensichtlich wütend, was man damit in Verbindung
+                        gesehen, was ihr peinlich sei. Das macht K. offensichtlich wütend, was man damit in Verbindung
                         bringen kann, dass er <i>&quot;einmal in der Woche zu einem Mädchen namens Elsa [geht], die
                         [...] während des Tages nur vom Bett aus Besuche empfing&quot;</i> (siehe Anfang des Kapitels).
                     </p>
@@ -52,14 +54,14 @@ export default function Home() {
 
                     <h3>Josef K.</h3>
                     <ul>
-                        <li>Unentschlossen / Wechselt ständig seine Ansichten</li>
-                        <li>Schiebt die Schuld gerne auf andere</li>
+                        <li>unentschlossen / wechselt ständig seine Ansichten</li>
+                        <li>schiebt die Schuld gerne auf andere</li>
                     </ul>
 
                     <h3>Frau Grubach</h3>
                     <ul>
-                        <li>Sorgt sich um K.</li>
-                        <li>Vertraut K.</li>
+                        <li>sorgt sich um K.</li>
+                        <li>vertraut K.</li>
                     </ul>
 
                     <h3>Weitere Personen</h3>

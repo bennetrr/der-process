@@ -20,7 +20,7 @@ export default function Home() {
                     <h2>Biografischer Ansatz</h2>
                     <ul>
                         <li>Viele Anspielungen und Bezüge auf Kafkas Leben</li>
-                        <li>Autorität des Gerichts ≙ Symbol für das Verhältnis Kafka / Vater</li>
+                        <li>Autorität und Willkür des Gerichts ≙ Symbol für das Verhältnis Kafka / Vater</li>
                         <li>K.&apos;s Onkel ≙ Kafkas Vater</li>
                         <li>Auflösung der Verlobung mit Felice Bauer = Gerichtsprozess für Kafka
                             <ul>
