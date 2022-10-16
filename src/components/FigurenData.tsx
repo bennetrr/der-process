@@ -1,4 +1,4 @@
-import styles from "../styles/Figurentableau.module.scss"
+import styles from "../styles/Figurentableau.module.scss";
 
 const figurenData = {
     "501": <>
@@ -6,13 +6,15 @@ const figurenData = {
         <ul>
             <li>Herzkranker Mann kurz vor seinem Tod</li>
             <li>wohnt in dem Stadtteil, in dem sich auch die Gerichtskanzleien befinden</li>
-            <li>viele Bekanntschaften zu Gerichtspersonen<ul>
-                <li>dienen der Informationsbeschaffung zu Prozessen seiner Mandanten</li>
-            </ul>
+            <li>viele Bekanntschaften zu Gerichtspersonen
+                <ul>
+                    <li>dienen der Informationsbeschaffung zu Prozessen seiner Mandanten</li>
+                </ul>
             </li>
-            <li>Beziehung zu Leni<ul>
-                <li>fühlt ich gestört durch Lenis Annäherungen zu den Angeklagten</li>
-            </ul>
+            <li>Beziehung zu Leni
+                <ul>
+                    <li>fühlt ich gestört durch Lenis Annäherungen zu den Angeklagten</li>
+                </ul>
             </li>
             <li>hört sich gerne selbst reden</li>
             <li>ist selbstverliebt</li>
@@ -51,13 +53,15 @@ const figurenData = {
             <li>hat Vertrauen in K.</li>
             <li>hält die Pension ordentlich und rein</li>
             <li>K. ist &quot;ihr liebster Mieter&quot;</li>
-            <li>Mutterersatz für K.<ul>
-                <li>Funktion als Dienerin</li>
-            </ul>
+            <li>Mutterersatz für K.
+                <ul>
+                    <li>Funktion als Dienerin</li>
+                </ul>
             </li>
-            <li>sieht Fräulein Bürstner wegen ihrer oft wechselnden Partner als Gefahr für die Pensionsreinheit an<ul>
-                <li>Konflikt mit K., der wöchentlich eine Prostituierte besucht</li>
-            </ul>
+            <li>sieht Fräulein Bürstner wegen ihrer oft wechselnden Partner als Gefahr für die Pensionsreinheit an
+                <ul>
+                    <li>Konflikt mit K., der wöchentlich eine Prostituierte besucht</li>
+                </ul>
             </li>
         </ul>
     </>,
@@ -78,9 +82,11 @@ const figurenData = {
         <h2>Persönliche Daten</h2>
         <ul>
             <li>30 Jahre alt</li>
-            <li>arbeitet als Prokurist bei einer Bank<ul>
-                <li>empfindet seine Arbeit als sehr wichtig</li>
-            </ul></li>
+            <li>arbeitet als Prokurist bei einer Bank
+                <ul>
+                    <li>empfindet seine Arbeit als sehr wichtig</li>
+                </ul>
+            </li>
             <li>lebt alleine in einem in einer Pension angemieteten Zimmer</li>
         </ul>
         <h2>Charaktereigenschaften</h2>
@@ -129,10 +135,11 @@ const figurenData = {
     "0->100": <>
         <h1>Josef K. und seine Familie</h1>
         <ul>
-            <li>Josef ist weitestgehend von seiner Familie isoliert<ul>
-                <li>meidet seine Cousine, die in der gleichen Stadt lebt</li>
-                <li>hat seine Mutter seit drei Jahren nicht mehr gesehen</li>
-            </ul>
+            <li>Josef ist weitestgehend von seiner Familie isoliert
+                <ul>
+                    <li>meidet seine Cousine, die in der gleichen Stadt lebt</li>
+                    <li>hat seine Mutter seit drei Jahren nicht mehr gesehen</li>
+                </ul>
             </li>
             <li>sein Onkel hat ihn großgezogen und ist immer noch sein Vormund</li>
         </ul>
@@ -160,10 +167,11 @@ const figurenData = {
             <li>Tod seiner Frau kurz vor Anfang seines Prozesses</li>
             <li>Angeklagter des Gerichts</li>
             <li>seit fünf Jahren im Prozess, trotzdem unabsehbares Ende</li>
-            <li>Mandant von Advokat Huld<ul>
-                <li>unzufrieden mit seiner Arbeit</li>
-                <li>deshalb Beauftragung von 5 weiteren Advokaten</li>
-            </ul>
+            <li>Mandant von Advokat Huld
+                <ul>
+                    <li>unzufrieden mit seiner Arbeit</li>
+                    <li>deshalb Beauftragung von 5 weiteren Advokaten</li>
+                </ul>
             </li>
             <li>konzentriert sich voll auf den Prozess</li>
             <li>hat für den Prozess sein ganzes Geld verwendet und lebt deshalb beim Advokaten</li>

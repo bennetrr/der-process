@@ -3,7 +3,7 @@ import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
-import { BackgroundImage } from "../components/Images";
+import {BackgroundImage} from "../components/Images";
 
 export default function Home() {
     return (
@@ -24,7 +24,8 @@ export default function Home() {
                         <li>
                             <b>Ereignisse im Leben Kafkas:</b>
                             <p className={styles.seamlessParagraph}>
-                                Kafka fängt im Sommer 1914 an, den Roman <i> Der Process </i> zu schreiben. Im Juli 1914 fand die Auflösung
+                                Kafka fängt im Sommer 1914 an, den Roman <i> Der Process </i> zu schreiben. Im Juli 1914
+                                fand die Auflösung
                                 der Verlobung mit Felice Bauer statt, die den Roman maßgeblich prägte (siehe
                                 biografischer Interpretationsansatz). Außerdem wohnte Kafka ab Herbst das erste Mal
                                 unabhängig von seinen Eltern.

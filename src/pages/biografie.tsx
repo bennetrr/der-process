@@ -3,8 +3,8 @@ import styles from "../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../components/Header";
-import Timeline, { TimelineItem } from "../components/Timeline";
-import { BackgroundImage } from "../components/Images";
+import Timeline, {TimelineItem} from "../components/Timeline";
+import {BackgroundImage} from "../components/Images";
 
 export default function Home() {
     return (
@@ -20,7 +20,7 @@ export default function Home() {
             <div className={styles.pageContent}>
                 <h1>Biografie zu Franz Kafka</h1>
 
-                <Timeline width={'60%'}>
+                <Timeline width={"60%"}>
                     <TimelineItem date={"3. Juli 1883"} image={{
                         uri: "/img/biografie/Kafka_5_Jahre.jpg",
                         alt: "Kafka mit ca. 5 Jahren",

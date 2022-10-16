@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -13,7 +13,8 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"} desc={"Der Veitsdom auf der Prager Burg"} />
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap9_Dom_Prag.jpg"}
+                             desc={"Der Veitsdom auf der Prager Burg"}/>
             <Header/>
 
             <div className={styles.pageContent}>
@@ -54,7 +55,8 @@ export default function Home() {
                     </p>
 
                     <p>
-                        K. entgegnet auf die Erzählung, dass der Torhüter den Mann getäuscht habe und <i>&quot;die erlösende
+                        K. entgegnet auf die Erzählung, dass der Torhüter den Mann getäuscht habe und <i>&quot;die
+                        erlösende
                         Mitteilung erst dann gemacht [habe], als sie dem Mann nicht mehr helfen konnte&quot;</i>. Der
                         Kaplan verteidigt den Torhüter, er habe ja nur seine Pflicht erfüllt. Der Mann habe nur am
                         Anfang gefragt, ob er eingelassen werden kann, und ihm wurde gesagt, er könne jetzt noch keinen

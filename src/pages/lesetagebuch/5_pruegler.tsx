@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BackgroundImage uri={"/img/kapiteluebersicht/Kap5_Prügler.jpg"} desc={"Zeichnung \"Der Prügler\""} />
+            <BackgroundImage uri={"/img/kapiteluebersicht/Kap5_Prügler.jpg"} desc={"Zeichnung \"Der Prügler\""}/>
             <Header/>
 
             <div className={styles.pageContent}>

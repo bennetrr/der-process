@@ -3,7 +3,7 @@ import styles from "../../styles/Page.module.scss";
 
 import Head from "next/head";
 import Header from "../../components/Header";
-import { BackgroundImage } from "../../components/Images";
+import {BackgroundImage} from "../../components/Images";
 
 export default function Home() {
     return (
@@ -23,11 +23,11 @@ export default function Home() {
                     <p>
                         K. kommt von der Arbeit nach Hause. An der Haustür trifft er auf den ihm noch unbekannten Sohn
                         des Hausmeisters. Nach einem kurzen Wortwechsel geht K. zu Frau Grubach, um mit ihr über die
-                        Geschehnisse am
-                        Morgen zu sprechen. Das Gespräch verläuft etwas merkwürdig: Frau Grubach meint zu K., dass eine
-                        solche Situation <i>&quot;nicht wieder vorkommen [kann]&quot;</i> und dass K. <i>&quot;es nicht
-                        zu schwer nehmen&quot;</i> solle. Außerdem sagt sie, dass ihr die Verhaftung wie
-                        etwas <i>&quot;gelehrtes&quot;</i> vorkomme und nicht so wie die Verhaftung eines Diebes.
+                        Geschehnisse am Morgen zu sprechen. Das Gespräch verläuft etwas merkwürdig: Frau Grubach meint
+                        zu K., dass eine solche Situation <i>&quot;nicht wieder vorkommen [kann]&quot;</i> und dass
+                        K. <i>&quot;es nicht zu schwer nehmen&quot;</i> solle. Außerdem sagt sie, dass ihr die
+                        Verhaftung wie etwas <i>&quot;gelehrtes&quot;</i> vorkomme und nicht so wie die Verhaftung eines
+                        Diebes.
                     </p>
                     <p>
                         Danach schweift das Gespräch auf Fräulein Bürstner ab. K. fragt Frau Grubach, ob Fräulein

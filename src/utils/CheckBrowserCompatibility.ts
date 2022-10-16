@@ -23,4 +23,3 @@ export default function isBrowserCompatible() {
     if (name == "Safari" && semver.lt(semVer, "9.0.0")) return false;
     return true;
 }
-

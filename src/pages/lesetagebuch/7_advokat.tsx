@@ -115,7 +115,7 @@ export default function Home() {
                     <h2>Gedanken / Fragen / Eindrücke / Widersprüche</h2>
                     <ul>
                         <li>Wenn das Gericht geheim ist, warum wissen dann so viele davon?</li>
-                        <li>Wer nimmt welche Rolle ein und wer steht tatsächlich auf K.&apos;s Seite? </li>
+                        <li>Wer nimmt welche Rolle ein und wer steht tatsächlich auf K.&apos;s Seite?</li>
                     </ul>
                 </div>
             </div>

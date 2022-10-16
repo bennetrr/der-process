@@ -21,8 +21,8 @@ export default function Home() {
                         K. ist beim Haus des Advokaten, um ihm seine Kündigung mitzuteilen. Nach zweimaligem Klingeln
                         öffnet ihm ein Mann die Tür, der sich als Kaufmann Block vorstellt. K. unterstellt ihm, ein
                         Liebhaber von Leni zu sein, später erfährt er aber, dass er auch ein Mandat des Advokaten ist
-                        und selbst in einem Prozess steckt. Block erzählt von seinem Prozess, der im Allgemeinen dem von K.
-                        gleicht, allerdings schon 5 Jahre andauert. Er schildert auch die gleichen Eindrücke von Huld,
+                        und selbst in einem Prozess steckt. Block erzählt von seinem Prozess, der im Allgemeinen dem von
+                        K. gleicht, allerdings schon 5 Jahre andauert. Er schildert auch die gleichen Eindrücke von Huld,
                         weshalb er auch noch 5 weitere Advokaten habe. Dann sagt Block, dass er K. im Wartezimmer des
                         Gerichts begegnet sei, und erzählt von einem Aberglauben, der besagt, dass man den Ausgang eines
                         Falles an den Lippen eines Angeklagten ablesen könne.
@@ -38,7 +38,8 @@ export default function Home() {
                         letztendlich krank gemacht habe, läge.
                     </p>
                     <p>
-                        Weil K. die Argumente nicht überzeugen können, ruft Huld den Kaufmann Block herein, welcher sich sehr
+                        Weil K. die Argumente nicht überzeugen können, ruft Huld den Kaufmann Block herein, welcher sich
+                        sehr
                         ängstlich und unterwürfig gibt. Es folgt eine Auseinandersetzung, die damit startet, dass Huld
                         Block vorwirft, immer ungelegen zu kommen. Kurz darauf kommt Leni herein und beteiligt sich an
                         der Demütigung. Sie berichtet, wie sie den Kaufmann im Dienstmädchenzimmer eingeschlossen habe.
