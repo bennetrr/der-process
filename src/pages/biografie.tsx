@@ -122,7 +122,7 @@ export default function Home() {
                     </TimelineItem>
 
                     <TimelineItem date={"Januar 1915"}>
-                        Die Arbeiten am unvollendeten <i>Der Process</i> werden eingestellt.
+                        Die Arbeiten am Roman <i>Der Process</i> werden eingestellt. Er bleibt unvollendet.
                     </TimelineItem>
 
                     <TimelineItem date={"ab November 1916"}>
@@ -161,7 +161,7 @@ export default function Home() {
                         originalWidth: 1751,
                         originalHeight: 2752
                     }}>
-                        Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem der
+                        Franz Kafka schreibt in der Kur den über 100 Seiten langen <i>Brief an den Vater</i>, in dem er
                         über das schlechte Verhältnis zu seinem Vater berichtet. <br/>
                         Der Brief wurde nie an Hermann Kafka abgeschickt.
                     </TimelineItem>

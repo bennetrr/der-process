@@ -21,7 +21,7 @@ export default function Home() {
                     <h1>Kapitel 3: Erste Untersuchungen</h1>
                     <h2>Inhaltswiedergabe</h2>
                     <p>
-                        K. wurde telefonisch bescheid gesagt, dass er am Sonntag zu einer Untersuchung gehen muss.
+                        K. wurde telefonisch Bescheid gesagt, dass er am Sonntag zu einer Untersuchung gehen muss.
                         Direkt danach lädt ihn der Direktor-Stellvertreter, mit dem K. sich nie gut vertragen hat, am
                         gleichen Sonntag auf sein Segelboot ein, was K. leider ablehnen muss. Kurz nach dem Telefonat
                         fällt K. ein, dass ihm keine Uhrzeit für sein Erscheinen gesagt wurde.
@@ -48,7 +48,7 @@ export default function Home() {
                         <li>Josef K.</li>
                         <li>Direktor-Stellvertreter</li>
                         <li>Untersuchungsrichter</li>
-                        <li>Weitere Beteiligte der Untersuchung</li>
+                        <li>weitere Beteiligte der Untersuchung</li>
                     </ul>
 
                     <h2>Orte</h2>
