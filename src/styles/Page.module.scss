@@ -14,6 +14,32 @@
   margin-top: variables.$headerHeight;
 }
 
+.pageContentIncompatible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-color: #570000;
+  text-align: center;
+
+  h2 {
+    font-weight: normal;
+  }
+}
+
+.pageContent404 {
+  @extend .pageContent;
+
+  background-color: #570000;
+  text-align: center;
+
+  h2 {
+    font-weight: normal;
+  }
+}
+
 .pageContentGray {
   @extend .pageContent;
   background-color: variables.$backgroundColor;

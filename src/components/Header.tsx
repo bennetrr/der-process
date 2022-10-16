@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from "../styles/Header.module.scss";
 
 import MenuEntry from "./MenuEntry";
 import {faHome, faInfo} from "@fortawesome/free-solid-svg-icons";
+import {useRouter} from "next/router";
+import isBrowserCompatible from "../utils/CheckBrowserCompatibility";
 
 function AppName() {
     return (
@@ -13,6 +15,14 @@ function AppName() {
 }
 
 export default function Header() {
+    const router = useRouter();
+
+    useEffect(() => {
+        if (isBrowserCompatible()) return;
+        if (router.pathname == "/incompatible") return;
+        void router.push("/incompatible");
+    });
+
     return (
         <div className={styles.header}>
             <AppName/>
