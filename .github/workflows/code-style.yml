@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 jobs:
-  astro-check:
-    name: astro check
+  next-lint:
+    name: next lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -29,5 +29,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: ...
-        run: exit 0
+      - name: Run next lint
+        run: pnpm lint
