@@ -2,7 +2,7 @@
 
 [![Build and deploy to GitHub Pages](https://github.com/bennetrr/der-process/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/bennetrr/der-process/actions/workflows/build-deploy.yml)
 
-Mein Lesetagebuch zu Franz Kafka - Der Process 
+Mein Lesetagebuch zu Franz Kafka - Der Process.
 Visit the page: https://der-process.bennetr.me/
 
 ## Development
