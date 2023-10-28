@@ -1,4 +1,4 @@
-import styles from "../styles/Figurentableau.module.scss";
+import styles from "$/styles/Figurentableau.module.scss";
 
 const figurenData = {
     "501": <>

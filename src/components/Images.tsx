@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../styles/Page.module.scss";
-import {BackgroundImageProps, bgImgProps, ImageProps} from "../types/ImageProps";
+import styles from "$/styles/Page.module.scss";
+import {BackgroundImageProps, bgImgProps, ImageProps} from "$/types/ImageProps";
 
 import {default as NextImage} from "next/image";
-import {calculateImageSizes} from "../utils/CalculateImageSizes";
+import {calculateImageSizes} from "$/utils/CalculateImageSizes";
 
 function bgImg({uri, desc, filterClassName}: bgImgProps) {
     return (

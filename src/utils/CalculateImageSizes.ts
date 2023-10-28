@@ -1,4 +1,4 @@
-import {calculatedImageSizes} from "../types/ImageProps";
+import {calculatedImageSizes} from "$/types/ImageProps";
 
 export function calculateImageSizes(width: number | "auto", height: number | "auto", originalWidth: number | undefined, originalHeight: number | undefined): calculatedImageSizes {
     // Automatic scaling does not preserve the ratio of the picture, so it's not supported

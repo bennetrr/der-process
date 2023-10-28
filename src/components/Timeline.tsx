@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../styles/Timeline.module.scss";
-import {TimelineItemImageProps, TimelineItemProps, TimelineProps} from "../types/TimelineProps";
+import styles from "$/styles/Timeline.module.scss";
+import {TimelineItemImageProps, TimelineItemProps, TimelineProps} from "$/types/TimelineProps";
 
 import {Image} from "./Images";
-import {calculateImageSizes} from "../utils/CalculateImageSizes";
+import {calculateImageSizes} from "$/utils/CalculateImageSizes";
 
 export default function Timeline({children}: TimelineProps) {
     return (

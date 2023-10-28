@@ -1,14 +1,14 @@
-import {ReactNodeLike} from "prop-types";
 import {ImageProps} from "./ImageProps";
+import {ReactNode} from 'react';
 
 export interface TimelineProps {
-    children: ReactNodeLike;
+    children: ReactNode;
     width: string;
 }
 
 export interface TimelineItemProps {
     date: string;
-    children: ReactNodeLike;
+    children: ReactNode;
     image?: ImageProps;
 }
 

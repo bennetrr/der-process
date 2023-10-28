@@ -1,9 +1,5 @@
 @use "variables";
 
-.container {
-  color: variables.$textColor;
-}
-
 .pageContent {
   display: flex;
   flex-direction: column;
@@ -12,21 +8,6 @@
 
   min-height: calc(100vh - #{variables.$headerHeight});
   margin-top: variables.$headerHeight;
-}
-
-.pageContentIncompatible {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  height: 100vh;
-  background-color: #570000;
-  text-align: center;
-
-  h2 {
-    font-weight: normal;
-  }
 }
 
 .pageContent404 {

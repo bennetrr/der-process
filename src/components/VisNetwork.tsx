@@ -1,7 +1,7 @@
 import React, {memo, useEffect, useRef} from "react";
 import {Network} from "vis-network";
-import VisNetworkProps from "../types/VisNetworkProps";
-import useContentDimensions from "../utils/ContentDimensionsHook";
+import VisNetworkProps from "$/types/VisNetworkProps";
+import useContentDimensions from "$/utils/ContentDimensionsHook";
 
 export default memo(function VisNetwork({nodes, edges, options, events, getNetwork}: VisNetworkProps) {
     const container = useRef<HTMLDivElement>(null);

@@ -12,6 +12,10 @@
   overflow: auto;
 
   background-color: variables.$backgroundColorDark;
+
+  & a {
+    text-decoration: none;
+  }
 }
 
 .itemNonInteractive {
@@ -20,10 +24,9 @@
   padding: 5px 15px;
 
   display: flex;
-  flex-direction: row;
   align-items: center;
 
-  cursor: default;
+  cursor: pointer;
   user-select: none;
   white-space: nowrap;
 }
