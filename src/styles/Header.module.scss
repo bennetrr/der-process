@@ -1,0 +1,72 @@
+@use "variables";
+
+.header {
+  width: 100vw;
+  height: variables.$headerHeight;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+
+  background-color: variables.$backgroundColorDark;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.itemNonInteractive {
+  height: variables.$headerHeight;
+  width: auto;
+  padding: 5px 15px;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+@mixin itemBorder($borderWith: 1px, $padding: 4px) {
+  color: variables.$highlightColor;
+  border-top: $borderWith solid variables.$highlightColor;
+  padding-top: $padding;
+}
+
+.item {
+  @extend .itemNonInteractive;
+
+  &:hover {
+    @include itemBorder();
+  }
+}
+
+.itemActive {
+  @extend .itemNonInteractive;
+  @include itemBorder(3px, 2px);
+}
+
+.itemActiveChild {
+  @extend .itemActive;
+
+  &:hover {
+    @include itemBorder();
+  }
+}
+
+.itemText {
+  margin-left: 10px;
+}
+
+.appName {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.leftRightSep {
+  margin-left: auto;
+}

@@ -1,0 +1,80 @@
+@use "variables";
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: calc(100vh - #{variables.$headerHeight});
+  margin-top: variables.$headerHeight;
+}
+
+.pageContent404 {
+  @extend .pageContent;
+
+  background-color: #570000;
+  text-align: center;
+
+  h2 {
+    font-weight: normal;
+  }
+}
+
+.pageContentGray {
+  @extend .pageContent;
+  background-color: variables.$backgroundColor;
+}
+
+.textOnlyContent {
+  width: 50%;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: variables.$maxMobileWidth) {
+    width: unset;
+    margin-left: 15px;
+    margin-right: 30px;
+  }
+
+  p {
+    text-align: justify;
+    text-align-last: left;
+  }
+}
+
+@mixin bgImg($z) {
+  width: 100vw;
+  height: calc(100vh - #{variables.$headerHeight});
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: $z;
+  margin-top: variables.$headerHeight;
+  overflow: hidden;
+
+  cursor: default;
+  user-select: none;
+}
+
+.backgroundImage {
+  @include bgImg(-100);
+}
+
+.backgroundImageFilterBW {
+  @include bgImg(-99);
+  backdrop-filter: grayscale(100%) blur(2px) brightness(45%);
+}
+
+.backgroundImageFilterColor {
+  @include bgImg(-99);
+  backdrop-filter: blur(2px) brightness(45%);
+}
+
+.list {
+  list-style-type: disc;
+}
+
+.seamlessParagraph {
+  margin-top: 0;
+}

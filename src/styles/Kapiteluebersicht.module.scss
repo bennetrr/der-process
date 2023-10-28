@@ -1,0 +1,79 @@
+@use "variables";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 30px;
+  margin: 0 auto 100px auto;
+
+  @media screen and (min-width: 800px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  @media screen and (min-width: 1600px) {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@mixin item($overlayColor) {
+  display: block;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  padding: 20px;
+  z-index: 0;
+
+  background-color: variables.$backgroundColorDark;
+  border-radius: variables.$roundedCorners;
+  overflow: hidden;
+
+  a {
+    visibility: hidden;
+  }
+
+  &:before {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    z-index: -1;
+
+    content: "";
+    background: $overlayColor;
+    border-radius: 32px;
+
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.45s ease-out;
+  }
+
+  &:hover {
+    transition: all 0.5s ease-out;
+    color: variables.$backgroundColorDark;
+
+    a {
+      visibility: visible;
+    }
+
+    &:before {
+      transform: scale(40);
+    }
+  }
+}
+
+.kapitel {
+  @include item(variables.$highlightColor)
+}
+
+.fragment {
+  @include item(variables.$disabledColor)
+}
+
+.title {
+  font-size: 20px;
+}

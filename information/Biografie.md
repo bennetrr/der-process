@@ -157,6 +157,6 @@ Verschollene_
 
 ### Quellen:
 
-- <https://github.com/bennetrr/kafka-der-process/blob/72894feec8dd0e6eddf6c66b0710ce8e23882bf5/material/1%20Kafka%20und%20Prag.pdf>
+- <https://github.com/bennetrr/der-process/blob/72894feec8dd0e6eddf6c66b0710ce8e23882bf5/material/1%20Kafka%20und%20Prag.pdf>
 - <https://www.inhaltsangabe.de/autoren/kafka/>
 - <https://de.wikipedia.org/wiki/Franz_Kafka#Leben>

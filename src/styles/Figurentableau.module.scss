@@ -1,0 +1,127 @@
+@use "variables";
+
+.floatingWarningContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  user-select: none;
+}
+
+.floatingWarning {
+  margin: 10px auto;
+  padding: 15px 35px;
+  width: fit-content;
+
+  background-color: variables.$backgroundColorDark;
+  border-radius: 30px;
+}
+
+.floatingWarningCloseIcon {
+  margin-left: 30px;
+  position: relative;
+  top: 1px;
+
+  &:hover {
+    color: variables.$closeButtonColor;
+    cursor: pointer;
+  }
+}
+
+.noInfoNotificationContainer {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  user-select: none;
+}
+
+.noInfoNotification {
+  margin: 10px auto;
+  padding: 15px 35px;
+  width: fit-content;
+
+  background-color: variables.$backgroundColorDark;
+  color: variables.$closeButtonColor;
+  border-radius: 30px;
+}
+
+.figurenPopupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+
+  backdrop-filter: blur(1px) brightness(50%);
+}
+
+.figurenPopup {
+  width: 50%;
+  height: 80%;
+  padding: 0 20px;
+  overflow: auto;
+  z-index: 201;
+
+  background-color: transparentize(variables.$backgroundColor, 0.3);
+  border-radius: 10px;
+
+  @media screen and (max-width: variables.$maxMobileWidth) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.figurenPopupCloseIcon {
+  position: absolute;
+  right: calc(25% + 15px);
+  padding: 15px 5px 5px;
+
+  &:hover {
+    color: variables.$closeButtonColor;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: variables.$maxMobileWidth) {
+    right: 15px;
+  }
+}
+
+.bigArrow {
+  font-size: 70px;
+  margin-left: 70px;
+}
+
+.bigArrowCenteredText {
+  position: relative;
+  bottom: 20px;
+}
+
+.viewAllButton {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25%;
+  background-color: variables.$backgroundColorDark;
+
+  &:hover {
+    background-color: variables.$highlightColor;
+    color: variables.$backgroundColor;
+    cursor: pointer;
+  }
+}

@@ -9,7 +9,7 @@ Lizenz: Unbekannt
 
 ## Textquellen
 
-- <https://github.com/bennetrr/kafka-der-process/blob/72894feec8dd0e6eddf6c66b0710ce8e23882bf5/material/1%20Kafka%20und%20Prag.pdf>
+- <https://github.com/bennetrr/der-process/blob/72894feec8dd0e6eddf6c66b0710ce8e23882bf5/material/1%20Kafka%20und%20Prag.pdf>
 - <https://www.inhaltsangabe.de/autoren/kafka/>
 - <https://de.wikipedia.org/wiki/Franz_Kafka#Leben>
 
@@ -33,7 +33,7 @@ Lizenz: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
   Lizenz: Gemeinfrei
 
 - Franz Kafka und Felice Bauer (1917)<br>
-  <https://github.com/bennetrr/kafka-der-process/blob/c7de0575a321e561e9d7cc60bfd25822c815a593/material/1%20Kafka%20und%20Prag.pdf><br>
+  <https://github.com/bennetrr/der-process/blob/c7de0575a321e561e9d7cc60bfd25822c815a593/material/1%20Kafka%20und%20Prag.pdf><br>
   Autor: Unbekannt (via Schule)<br>
   Lizenz: Unbekannt
 

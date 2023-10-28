@@ -1,0 +1,23 @@
+@use 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: variables.$backgroundColor;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: variables.$textColor;
+  scrollbar-color: variables.$disabledColor transparent;
+}
+
+a {
+  color: inherit;
+}

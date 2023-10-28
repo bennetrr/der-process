@@ -1,0 +1,46 @@
+@use "variables";
+
+.pageContent {
+  display: flex;
+  min-height: calc(100vh - #{variables.$headerHeight});
+  margin-top: variables.$headerHeight;
+  background-color: variables.$backgroundColor;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column
+  }
+}
+
+@mixin container($flex, ) {
+  flex: $flex;
+  padding: 15px;
+
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.aboutContainer {
+  @include container(0.4);
+  background-color: variables.$backgroundColorDark;
+  border-radius: 30px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.sourcesContainer {
+  @include container(0.6);
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.GitHubLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+}
+
+.GitHubLinkText {
+  margin: auto 0 auto 20px;
+}

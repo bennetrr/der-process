@@ -26,7 +26,7 @@
 ## Tiefenpsychologischer Ansatz (nach Freud)
 
 - Neurotische Störungen
-- <https://github.com/bennetrr/kafka-der-process/blob/e44749af96201449ac3effb6baf1d57dbcd4288e/src/public/Es_Ich_Ueber_Ich.drawio.svg>
+- <https://github.com/bennetrr/der-process/blob/e44749af96201449ac3effb6baf1d57dbcd4288e/src/public/Es_Ich_Ueber_Ich.drawio.svg>
 - Wie in einer Traumwelt
 - Dunkelheit → Unterbewusstsein
 
