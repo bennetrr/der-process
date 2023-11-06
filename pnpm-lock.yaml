@@ -33,8 +33,8 @@ dependencies:
     specifier: ^7.1.7
     version: 7.1.7(uuid@9.0.1)(vis-util@5.0.5)
   vis-network:
-    specifier: ^9.1.8
-    version: 9.1.8(@egjs/hammerjs@2.0.17)(component-emitter@1.3.0)(keycharm@0.4.0)(uuid@9.0.1)(vis-data@7.1.7)(vis-util@5.0.5)
+    specifier: ^9.1.9
+    version: 9.1.9(@egjs/hammerjs@2.0.17)(component-emitter@1.3.0)(keycharm@0.4.0)(uuid@9.0.1)(vis-data@7.1.7)(vis-util@5.0.5)
 
 devDependencies:
   '@types/node':
@@ -2593,8 +2593,8 @@ packages:
       vis-util: 5.0.5(@egjs/hammerjs@2.0.17)(component-emitter@1.3.0)
     dev: false
 
-  /vis-network@9.1.8(@egjs/hammerjs@2.0.17)(component-emitter@1.3.0)(keycharm@0.4.0)(uuid@9.0.1)(vis-data@7.1.7)(vis-util@5.0.5):
-    resolution: {integrity: sha512-L/oNfMLlRA6kFg4gZF8wfJjWujjgxFEDIYFwQ/thfZwIclC0RTVQsDzTUdJSEosdHmYKugQuU3vCYB/hsoUqRw==}
+  /vis-network@9.1.9(@egjs/hammerjs@2.0.17)(component-emitter@1.3.0)(keycharm@0.4.0)(uuid@9.0.1)(vis-data@7.1.7)(vis-util@5.0.5):
+    resolution: {integrity: sha512-Ft+hLBVyiLstVYSb69Q1OIQeh3FeUxHJn0WdFcq+BFPqs+Vq1ibMi2sb//cxgq1CP7PH4yOXnHxEH/B2VzpZYA==}
     peerDependencies:
       '@egjs/hammerjs': ^2.0.0
       component-emitter: ^1.3.0
