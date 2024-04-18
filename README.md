@@ -1,3 +1,6 @@
+> [!WARNING]
+> Dieses Projekt ist archiviert und wird nicht mehr weiterentwickelt.
+
 # Lesetagebuch: Kafka - Der Process
 
 [![Build and deploy to GitHub Pages](https://github.com/bennetrr/der-process/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/bennetrr/der-process/actions/workflows/build-deploy.yml)
